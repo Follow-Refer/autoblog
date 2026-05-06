@@ -78,7 +78,7 @@ def post_to_wordpress(post_data: dict, lang: str = "ko"):
         f"{WP_URL}/wp-json/wp/v2/posts",
         json=payload,
         headers=headers,
-        timeout=30
+        timeout=30, verify=False
     )
 
     if resp.status_code == 201:
