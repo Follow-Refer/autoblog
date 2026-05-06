@@ -6,45 +6,39 @@ from content_generator import generate_post
 from wordpress_poster import post_to_wordpress
 
 def main():
-    print("=== AutoBlog 시작 ===")
+    print("=== AutoBlog Start ===")
 
     categories = [
         "kitchen", "electronics", "beauty", "fitness",
         "home", "outdoor", "baby", "pet-supplies"
     ]
     category = random.choice(categories)
-    print(f"오늘의 카테고리: {category}")
+    print(f"Today's category: {category}")
 
     products = get_bestseller_products(category, count=3)
 
     if not products:
-        print("상품을 찾지 못했습니다.")
+        print("No products found.")
         return
 
     for i, product in enumerate(products):
-        print(f"\n[{i+1}/3] 처리 중: {product['title'][:50]}...")
+        print(f"\n[{i+1}/3] Processing: {product['title'][:50]}...")
 
-        # 실제 아마존 리뷰 가져오기
-        print(f"  리뷰 수집 중...")
+        print("  Collecting reviews...")
         reviews = get_amazon_reviews(product["link"])
         product["reviews"] = reviews
 
         if reviews["pros"]:
-            print(f"  ✅ 장점 {len(reviews['pros'])}개, 단점 {len(reviews['cons'])}개 수집")
+            print(f"  Reviews collected: {len(reviews['pros'])} pros, {len(reviews['cons'])} cons")
         else:
-            print(f"  ⚠️ 리뷰 수집 실패 → AI가 자체 생성")
+            print("  No reviews found - AI will generate naturally")
 
-        # 한국어 포스트
-        ko_post = generate_post(product, lang="ko")
-        post_to_wordpress(ko_post, lang="ko")
-        print(f"  ✅ 한국어 포스트 발행")
+        post = generate_post(product, lang="en")
+        result = post_to_wordpress(post, lang="en")
+        if result:
+            print(f"  Published: {result.get('link', 'ok')}")
 
-        # 영어 포스트
-        en_post = generate_post(product, lang="en")
-        post_to_wordpress(en_post, lang="en")
-        print(f"  ✅ 영어 포스트 발행")
-
-    print("\n=== AutoBlog 완료 ===")
+    print("\n=== AutoBlog Done ===")
 
 if __name__ == "__main__":
     main()
