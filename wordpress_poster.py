@@ -62,7 +62,7 @@ def post_to_wordpress(post_data: dict, lang: str = "en"):
         json=payload,
         headers=headers,
         timeout=30,
-        verify=true
+        verify=True
     )
 
     if resp.status_code == 201:
