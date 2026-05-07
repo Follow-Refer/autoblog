@@ -1,5 +1,9 @@
 import os
 import random
+import time
+wait = random.randint(0, 1800)  # 0~30분 랜덤 대기
+print(f"Waiting {wait//60} minutes...")
+time.sleep(wait)
 from scraper import get_bestseller_products
 from review_scraper import get_amazon_reviews
 from content_generator import generate_post
