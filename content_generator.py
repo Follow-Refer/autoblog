@@ -1,6 +1,7 @@
 import anthropic
 import os
 import random
+from image_fetcher import build_image_html
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
@@ -103,7 +104,7 @@ def generate_post(product: dict, lang: str = "en") -> dict:
     )
 
     message = client.messages.create(
-        model="claude-sonnet-4-5",
+        model="claude-sonnet-4-20250514",
         max_tokens=3000,
         messages=[{"role": "user", "content": prompt}]
     )
@@ -112,7 +113,9 @@ def generate_post(product: dict, lang: str = "en") -> dict:
     raw   = message.content[0].text.strip()
     match = re.search(r'\{.*\}', raw, re.DOTALL)
     data  = json.loads(match.group() if match else raw)
-    data["content"] = CSS + data["content"]
+    # 이미지 자동 삽입
+    image_html = build_image_html(product)
+    data["content"] = CSS + image_html + data["content"]
     data["product"] = product
     data["lang"]    = "en"
     return data
