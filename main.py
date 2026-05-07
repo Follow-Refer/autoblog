@@ -15,7 +15,9 @@ def main():
     category = random.choice(categories)
     print(f"Today's category: {category}")
 
-    products = get_bestseller_products(category, count=3)
+elec = get_bestseller_products("electronics", count=1)
+others = get_bestseller_products(category, count=2)
+products = elec + others
 
     if not products:
         print("No products found.")
