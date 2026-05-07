@@ -9,15 +9,15 @@ def main():
     print("=== AutoBlog Start ===")
 
     categories = [
-        "kitchen", "electronics", "beauty", "fitness",
+        "kitchen", "beauty", "fitness",
         "home", "outdoor", "baby", "pet-supplies"
     ]
     category = random.choice(categories)
     print(f"Today's category: {category}")
 
-elec = get_bestseller_products("electronics", count=1)
-others = get_bestseller_products(category, count=2)
-products = elec + others
+    elec = get_bestseller_products("electronics", count=1)
+    others = get_bestseller_products(category, count=2)
+    products = elec + others
 
     if not products:
         print("No products found.")
