@@ -2,9 +2,9 @@ name: AutoBlog Daily Publisher
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-    - cron: '0 4 * * *'
-    - cron: '0 11 * * *'
+    - cron: '0 14 * * *'   # 미국 동부 오전 9~10시
+    - cron: '0 19 * * *'   # 미국 동부 오후 2~3시
+    - cron: '0 23 * * *'   # 미국 동부 오후 6~7시
   workflow_dispatch:
 
 jobs:
