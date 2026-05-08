@@ -2,31 +2,77 @@ name: AutoBlog Daily Publisher
 
 on:
   schedule:
-    - cron: '0 14 * * *'   # 미국 동부 오전 9~10시
-    - cron: '0 19 * * *'   # 미국 동부 오후 2~3시
-    - cron: '0 23 * * *'   # 미국 동부 오후 6~7시
-  workflow_dispatch:
+    # 한국 시간 기준 (UTC+9)
+    - cron: '0 0 * * *'   # 오전 9시 KST
+    - cron: '0 4 * * *'   # 오후 1시 KST
+    - cron: '0 11 * * *'  # 오후 8시 KST
+  workflow_dispatch:       # 수동 실행 버튼
 
 jobs:
-  publish:
+  publish-en:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 코드 체크아웃
-        uses: actions/checkout@v4
-
-      - name: Python 설치
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: 패키지 설치
-        run: pip install -r requirements.txt
-
-      - name: AutoBlog 실행
+      - run: pip install -r requirements.txt
+      - name: Run AutoBlog EN
         env:
+          BLOG_LANG: en
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           WP_URL:            ${{ secrets.WP_URL }}
           WP_USERNAME:       ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD:   ${{ secrets.WP_APP_PASSWORD }}
+        run: python main.py
+
+  publish-es:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Run AutoBlog ES
+        env:
+          BLOG_LANG: es
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WP_URL:            ${{ secrets.WP_URL_ES }}
+          WP_USERNAME:       ${{ secrets.WP_USERNAME_ES }}
+          WP_APP_PASSWORD:   ${{ secrets.WP_APP_PASSWORD_ES }}
+        run: python main.py
+
+  publish-in:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Run AutoBlog IN
+        env:
+          BLOG_LANG: in
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WP_URL:            ${{ secrets.WP_URL_IN }}
+          WP_USERNAME:       ${{ secrets.WP_USERNAME_IN }}
+          WP_APP_PASSWORD:   ${{ secrets.WP_APP_PASSWORD_IN }}
+        run: python main.py
+
+  publish-kr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Run AutoBlog KR
+        env:
+          BLOG_LANG: kr
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WP_URL:            ${{ secrets.WP_URL_KR }}
+          WP_USERNAME:       ${{ secrets.WP_USERNAME_KR }}
+          WP_APP_PASSWORD:   ${{ secrets.WP_APP_PASSWORD_KR }}
         run: python main.py
