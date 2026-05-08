@@ -98,13 +98,14 @@ def generate_post(product: dict, lang: str = "en") -> dict:
         '<strong>Skip it if you...</strong><p>1-2 honest reasons to pass</p>\n'
         '</div>\n'
         '<div class="fr-section">' + buy_btn + '</div>\n'
-        '<p class="fr-disclaimer">This post contains affiliate links. If you buy through them, I may earn a small commission at no extra cost to you. I only recommend products I genuinely think are worth it.</p>\n'
+        '<p class="fr-disclaimer">📢 <strong>Affiliate Disclosure:</strong> This post contains affiliate links. If you purchase through them, I may earn a small commission at no extra cost to you.<br><br>'
+        '<strong>Disclaimer:</strong> The reviews on this site are based on publicly available information and user feedback. Results may vary by individual. We are not responsible for any adverse reactions or dissatisfaction resulting from products purchased through our links. Always read product labels carefully and consult a professional if needed. Purchase decisions are solely your own responsibility.</p>\n'
         '</div>\n\n'
         "Respond ONLY in valid JSON (no markdown, no explanation):\n" + json_format
     )
 
     message = client.messages.create(
-        model="claude-sonnet-4-5",
+        model="claude-sonnet-4-20250514",
         max_tokens=3000,
         messages=[{"role": "user", "content": prompt}]
     )

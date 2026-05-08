@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import random
 import time
+import re
 
 HEADERS_LIST = [
     {
@@ -12,7 +13,6 @@ HEADERS_LIST = [
     {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
         "Accept-Language": "en-US,en;q=0.9",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     },
 ]
 
@@ -27,10 +27,15 @@ CATEGORY_URLS = {
     "pet-supplies": "https://www.amazon.com/Best-Sellers-Pet-Supplies/zgbs/pet-supplies/",
 }
 
-def get_bestseller_products(category: str, count: int = 3) -> list:
+def extract_asin(url: str) -> str:
+    """아마존 URL에서 ASIN 추출"""
+    match = re.search(r'/dp/([A-Z0-9]{10})', url)
+    return match.group(1) if match else ""
+
+def get_bestseller_products(category: str, count: int = 1, exclude_asins: list = []) -> list:
     url = CATEGORY_URLS.get(category, CATEGORY_URLS["kitchen"])
     headers = random.choice(HEADERS_LIST)
-    
+
     try:
         time.sleep(random.uniform(2, 4))
         resp = requests.get(url, headers=headers, timeout=15)
@@ -38,7 +43,10 @@ def get_bestseller_products(category: str, count: int = 3) -> list:
         soup = BeautifulSoup(resp.text, "html.parser")
 
         products = []
-        items = soup.select("div.zg-grid-general-faceout")[:count * 3]
+        items = soup.select("div.zg-grid-general-faceout")
+        
+        # 순서 섞기 (매번 다른 순서로)
+        random.shuffle(items)
 
         for item in items:
             if len(products) >= count:
@@ -50,20 +58,23 @@ def get_bestseller_products(category: str, count: int = 3) -> list:
             link_el = item.select_one("a.a-link-normal")
             img_el = item.select_one("img.a-dynamic-image, img.p13n-product-image")
 
-            if not title_el:
+            if not title_el or not link_el:
                 continue
 
             title = title_el.get_text(strip=True)
-            price = price_el.get_text(strip=True) if price_el else "Price not available"
+            link = "https://www.amazon.com" + link_el["href"] if link_el.get("href") else url
+            asin = extract_asin(link)
+
+            # 이미 발행된 ASIN이면 스킵
+            if asin and asin in exclude_asins:
+                continue
+
+            price = price_el.get_text(strip=True) if price_el else "Check on Amazon"
             rating = rating_el.get_text(strip=True) if rating_el else "4.5 out of 5 stars"
-            link = "https://www.amazon.com" + link_el["href"] if link_el and link_el.get("href") else url
             image = img_el.get("src", "") if img_el else ""
 
-            # 아마존 어필리에이트 태그 추가 (나중에 실제 태그로 교체)
-            if "?" in link:
-                link += "&tag=followrefer-20"
-            else:
-                link += "?tag=followrefer-20"
+            sep = "&" if "?" in link else "?"
+            link = link + sep + "tag=followrefer20-20"
 
             products.append({
                 "title": title,
@@ -72,11 +83,11 @@ def get_bestseller_products(category: str, count: int = 3) -> list:
                 "link": link,
                 "image": image,
                 "category": category,
+                "asin": asin,
             })
 
-        # 스크래핑 실패시 fallback 데이터
         if not products:
-            products = get_fallback_products(category, count)
+            return get_fallback_products(category, count)
 
         return products[:count]
 
@@ -86,17 +97,14 @@ def get_bestseller_products(category: str, count: int = 3) -> list:
 
 
 def get_fallback_products(category: str, count: int) -> list:
-    """스크래핑 실패시 사용할 샘플 데이터"""
     fallbacks = {
         "kitchen": [
-            {"title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker", "price": "$89.99", "rating": "4.7 out of 5 stars", "link": "https://www.amazon.com/dp/B00FLYWNYQ?tag=followrefer-20", "image": "", "category": "kitchen"},
-            {"title": "Lodge Cast Iron Skillet 12 Inch", "price": "$34.90", "rating": "4.8 out of 5 stars", "link": "https://www.amazon.com/dp/B00G2XGC88?tag=followrefer-20", "image": "", "category": "kitchen"},
-            {"title": "OXO Good Grips 3-Piece Mixing Bowl Set", "price": "$28.99", "rating": "4.6 out of 5 stars", "link": "https://www.amazon.com/dp/B0000CFLJA?tag=followrefer-20", "image": "", "category": "kitchen"},
+            {"title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker", "price": "$89.99", "rating": "4.7 out of 5 stars", "link": "https://www.amazon.com/dp/B00FLYWNYQ?tag=followrefer20-20", "image": "", "category": "kitchen", "asin": "B00FLYWNYQ"},
+            {"title": "Lodge Cast Iron Skillet 12 Inch", "price": "$34.90", "rating": "4.8 out of 5 stars", "link": "https://www.amazon.com/dp/B00G2XGC88?tag=followrefer20-20", "image": "", "category": "kitchen", "asin": "B00G2XGC88"},
         ],
         "electronics": [
-            {"title": "Apple AirPods Pro (2nd Generation)", "price": "$189.00", "rating": "4.7 out of 5 stars", "link": "https://www.amazon.com/dp/B0BDHWDR12?tag=followrefer-20", "image": "", "category": "electronics"},
-            {"title": "Anker 313 USB-C to USB-C Cable", "price": "$10.99", "rating": "4.6 out of 5 stars", "link": "https://www.amazon.com/dp/B09F52XQSV?tag=followrefer-20", "image": "", "category": "electronics"},
-            {"title": "Amazon Echo Dot (5th Gen)", "price": "$49.99", "rating": "4.5 out of 5 stars", "link": "https://www.amazon.com/dp/B09B8V1LZ3?tag=followrefer-20", "image": "", "category": "electronics"},
+            {"title": "Apple AirPods Pro (2nd Generation)", "price": "$189.00", "rating": "4.7 out of 5 stars", "link": "https://www.amazon.com/dp/B0BDHWDR12?tag=followrefer20-20", "image": "", "category": "electronics", "asin": "B0BDHWDR12"},
+            {"title": "Anker 313 USB-C to USB-C Cable", "price": "$10.99", "rating": "4.6 out of 5 stars", "link": "https://www.amazon.com/dp/B09F52XQSV?tag=followrefer20-20", "image": "", "category": "electronics", "asin": "B09F52XQSV"},
         ],
     }
     data = fallbacks.get(category, fallbacks["kitchen"])
