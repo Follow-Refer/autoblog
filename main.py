@@ -24,7 +24,7 @@ STEADY_SELLERS = [
     {"title": "Roomba 694 Robot Vacuum", "price": "$179.99", "rating": "4.4 out of 5 stars", "link": "https://www.amazon.com/dp/B08379498P?tag=followrefer20-20", "image": "", "category": "home", "asin": "B08379498P"},
     {"title": "Command Picture Hanging Strips", "price": "$14.98", "rating": "4.7 out of 5 stars", "link": "https://www.amazon.com/dp/B073XS3CHW?tag=followrefer20-20", "image": "", "category": "home", "asin": "B073XS3CHW"},
     {"title": "Bissell Little Green Portable Carpet Cleaner", "price": "$89.99", "rating": "4.5 out of 5 stars", "link": "https://www.amazon.com/dp/B0053QWOQ4?tag=followrefer20-20", "image": "", "category": "home", "asin": "B0053QWOQ4"},
-    # 전자기기 (일상적인 것)
+    # 전자기기
     {"title": "Anker 737 Power Bank 24000mAh", "price": "$79.99", "rating": "4.6 out of 5 stars", "link": "https://www.amazon.com/dp/B09VPHVD28?tag=followrefer20-20", "image": "", "category": "electronics", "asin": "B09VPHVD28"},
     {"title": "Kindle Paperwhite E-reader", "price": "$139.99", "rating": "4.7 out of 5 stars", "link": "https://www.amazon.com/dp/B08KTZ8249?tag=followrefer20-20", "image": "", "category": "electronics", "asin": "B08KTZ8249"},
     {"title": "Apple AirPods Pro 2nd Generation", "price": "$189.00", "rating": "4.7 out of 5 stars", "link": "https://www.amazon.com/dp/B0BDHWDR12?tag=followrefer20-20", "image": "", "category": "electronics", "asin": "B0BDHWDR12"},
@@ -39,7 +39,6 @@ STEADY_SELLERS = [
     {"title": "Pilot G2 Premium Retractable Gel Ink Pens", "price": "$12.99", "rating": "4.7 out of 5 stars", "link": "https://www.amazon.com/dp/B00006JNJ8?tag=followrefer20-20", "image": "", "category": "home", "asin": "B00006JNJ8"},
 ]
 
-# 일상용품 위주 카테고리
 CATEGORIES = [
     "kitchen",
     "beauty",
@@ -50,16 +49,16 @@ CATEGORIES = [
 ]
 
 def main():
+    # 언어 설정 (환경변수에서 읽기, 기본값 en)
+    lang = os.environ.get("BLOG_LANG", "en")
+    print(f"=== AutoBlog Start (lang={lang}) ===")
+
     wait = random.randint(0, 1800)
     print(f"Waiting {wait//60} minutes...")
     time.sleep(wait)
 
-    print("=== AutoBlog Start ===")
-
     category = random.choice(CATEGORIES)
 
-    # 상품 선정 전략
-    # 25% 스테디셀러, 10% 전자제품, 65% 베스트셀러 랜덤
     roll = random.random()
 
     if roll < 0.25:
@@ -89,12 +88,12 @@ def main():
     else:
         print("  No reviews - AI will generate naturally")
 
-    post = generate_post(product, lang="en")
-    result = post_to_wordpress(post, lang="en")
+    post = generate_post(product, lang=lang)
+    result = post_to_wordpress(post, lang=lang)
     if result:
         print(f"  Published: {result.get('link', 'ok')}")
 
-    print("\n=== AutoBlog Done ===")
+    print(f"\n=== AutoBlog Done (lang={lang}) ===")
 
 if __name__ == "__main__":
     main()
