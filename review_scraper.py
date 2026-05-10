@@ -17,72 +17,69 @@ HEADERS_LIST = [
 ]
 
 def get_amazon_reviews(product_url: str) -> dict:
-    """
-    아마존 상품 링크에서 실제 리뷰를 가져옵니다.
-    별점 4~5점 → 장점, 별점 1~2점 → 단점으로 분류합니다.
-    """
+    """아마존 실제 구매자 리뷰 수집 — 구체적인 경험담 위주로"""
     try:
-        # ASIN 추출
         asin_match = re.search(r'/dp/([A-Z0-9]{10})', product_url)
         if not asin_match:
-            return get_fallback_reviews()
-        
+            return {"pros": [], "cons": []}
+
         asin = asin_match.group(1)
-        review_url = f"https://www.amazon.com/product-reviews/{asin}/?sortBy=recent&reviewerType=all_reviews"
+        review_url = f"https://www.amazon.com/product-reviews/{asin}/?sortBy=helpful&reviewerType=avp_only_reviews"
 
         time.sleep(random.uniform(2, 4))
         headers = random.choice(HEADERS_LIST)
         resp = requests.get(review_url, headers=headers, timeout=15)
-        
+
         if resp.status_code != 200:
-            return get_fallback_reviews()
+            return {"pros": [], "cons": []}
 
         soup = BeautifulSoup(resp.text, "html.parser")
         review_elements = soup.select("div[data-hook='review']")
 
+        if not review_elements:
+            return {"pros": [], "cons": []}
+
         pros = []
         cons = []
 
-        for review in review_elements[:20]:  # 최대 20개 분석
-            # 별점 추출
-            rating_el = review.select_one("i[data-hook='review-star-rating'] span")
+        for review in review_elements[:30]:
+            rating_el = review.select_one("i[data-hook='review-star-rating'] span, i[data-hook='cmps-review-star-rating'] span")
             if not rating_el:
                 continue
+
             rating_text = rating_el.get_text(strip=True)
-            rating = float(rating_text.split(" ")[0]) if rating_text else 3.0
+            try:
+                rating = float(rating_text.split(" ")[0])
+            except:
+                continue
 
-            # 리뷰 본문 추출
+            # 리뷰 제목 + 본문 합쳐서 활용
+            title_el = review.select_one("a[data-hook='review-title'] span:not(.a-icon-alt), span[data-hook='review-title']")
             body_el = review.select_one("span[data-hook='review-body'] span")
-            if not body_el:
-                continue
-            body = body_el.get_text(strip=True)
 
-            # 너무 짧거나 긴 리뷰 스킵
-            if len(body) < 20 or len(body) > 300:
+            title_text = title_el.get_text(strip=True) if title_el else ""
+            body_text = body_el.get_text(strip=True) if body_el else ""
+
+            # 제목과 본문에서 구체적인 내용 추출
+            combined = (title_text + " — " + body_text).strip() if title_text else body_text
+
+            # 너무 짧거나 의미없는 리뷰 스킵
+            if len(combined) < 30:
                 continue
+
+            # 200자로 제한
+            combined = combined[:200]
 
             if rating >= 4.0 and len(pros) < 5:
-                pros.append(body[:150])
+                pros.append(combined)
             elif rating <= 2.0 and len(cons) < 3:
-                cons.append(body[:150])
-
-        # 리뷰가 충분히 없으면 fallback
-        if len(pros) < 2:
-            return get_fallback_reviews()
+                cons.append(combined)
 
         return {
-            "pros": pros[:3],  # 장점 최대 3개
-            "cons": cons[:2],  # 단점 최대 2개
+            "pros": pros[:4],
+            "cons": cons[:2],
         }
 
     except Exception as e:
         print(f"  리뷰 스크래핑 실패: {e}")
-        return get_fallback_reviews()
-
-
-def get_fallback_reviews() -> dict:
-    """스크래핑 실패시 기본 리뷰 구조 반환"""
-    return {
-        "pros": [],
-        "cons": [],
-    }
+        return {"pros": [], "cons": []}
