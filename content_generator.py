@@ -25,11 +25,11 @@ STYLES = {
         "entusiasta pero justo, mencionando detalles específicos que solo un dueño conocería",
     ],
     "in": [
-        "ईमानदार और बातचीत वाला, जैसे किसी ऐसे दोस्त की बात जिसने सच में इसे खरीदा और इस्तेमाल किया",
-        "विस्तृत और विशिष्ट, जैसे किसी ने हर फीचर को अच्छी तरह परखा हो",
-        "गर्मजोशी से भरा और व्यावहारिक, एक व्यस्त माता-पिता की असली अनुभव वाली बात",
-        "बजट के प्रति सचेत, हमेशा पैसे की असली कीमत पर ध्यान देने वाला",
-        "उत्साही लेकिन निष्पक्ष, ऐसी बारीकियां बताने वाला जो सिर्फ मालिक ही जान सकता है",
+        "honesto e conversacional, como um amigo de confiança que realmente comprou e usou",
+        "detalhado e específico, como alguém que testou cada função a fundo",
+        "caloroso e prático, um pai ocupado compartilhando experiência real com este produto",
+        "consciente do orçamento, sempre focado no valor real pelo dinheiro",
+        "entusiasmado mas justo, mencionando detalhes específicos que só um dono saberia",
     ],
     "kr": [
         "솔직하고 친근하게, 진짜로 구매해서 써본 친구가 얘기해주듯",
@@ -43,7 +43,9 @@ STYLES = {
 LANG_CONFIG = {
     "en": {
         "write_in": "English",
+        "unit_system": "imperial (°F, inches, oz, lbs, fl oz)",
         "buy_btn_text": "Check Price on Amazon →",
+        "shop_name": "Amazon",
         "bottom_line": "Bottom Line",
         "verified": "based on verified buyers",
         "what_i_like": "What I like about it",
@@ -53,12 +55,14 @@ LANG_CONFIG = {
         "buy_if": "Buy this if you...",
         "skip_if": "Skip it if you...",
         "disclaimer": "📢 <strong>Affiliate Disclosure:</strong> This post contains affiliate links. If you purchase through them, I may earn a small commission at no extra cost to you.<br><br><strong>Disclaimer:</strong> Reviews are based on publicly available information and verified buyer feedback. Results may vary. Always check product details before purchasing.",
-        "default_pros": "- Works exactly as described with no setup issues\n- Noticeably better than cheaper alternatives I've tried\n- Holds up well after months of regular use",
-        "default_cons": "- Instructions could use more detail for advanced features\n- Packaging could be sturdier for shipping",
+        "default_pros": "- Works exactly as described with no setup issues\n- Noticeably better than cheaper alternatives\n- Holds up well after months of regular use",
+        "default_cons": "- Instructions could use more detail for advanced features\n- Packaging could be sturdier",
     },
     "es": {
         "write_in": "Spanish (Latin American)",
+        "unit_system": "métrico (°C, cm/m, ml/L, g/kg) — NUNCA usar °F, pulgadas, oz ni libras",
         "buy_btn_text": "Ver precio en Amazon →",
+        "shop_name": "Amazon",
         "bottom_line": "Conclusión",
         "verified": "basado en compradores verificados",
         "what_i_like": "Lo que me gusta",
@@ -68,27 +72,31 @@ LANG_CONFIG = {
         "buy_if": "Cómpralo si...",
         "skip_if": "Evítalo si...",
         "disclaimer": "📢 <strong>Divulgación de afiliados:</strong> Esta publicación contiene enlaces de afiliados. Si compras a través de ellos, puedo ganar una pequeña comisión sin costo adicional para ti.<br><br><strong>Descargo de responsabilidad:</strong> Las reseñas se basan en información pública y comentarios de compradores verificados. Los resultados pueden variar.",
-        "default_pros": "- Funciona exactamente como se describe sin problemas de configuración\n- Notablemente mejor que alternativas más baratas que he probado\n- Se mantiene bien después de meses de uso regular",
-        "default_cons": "- Las instrucciones podrían tener más detalle para funciones avanzadas\n- El empaque podría ser más resistente para el envío",
+        "default_pros": "- Funciona exactamente como se describe\n- Notablemente mejor que alternativas más baratas\n- Se mantiene bien después de meses de uso",
+        "default_cons": "- Las instrucciones podrían ser más detalladas\n- El empaque podría ser más resistente",
     },
     "in": {
-        "write_in": "Hindi",
-        "buy_btn_text": "Amazon पर कीमत देखें →",
-        "bottom_line": "निष्कर्ष",
-        "verified": "verified खरीदारों के अनुसार",
-        "what_i_like": "मुझे क्या पसंद आया",
-        "good_stuff": "✅ अच्छी बातें",
-        "worth_knowing": "❌ ध्यान देने योग्य बातें",
-        "honest_take": "मेरी ईमानदार राय",
-        "buy_if": "यह खरीदें अगर...",
-        "skip_if": "इसे छोड़ें अगर...",
-        "disclaimer": "📢 <strong>Affiliate Disclosure:</strong> इस पोस्ट में affiliate links हैं। खरीदारी पर मुझे कमीशन मिल सकता है, आपको कोई अतिरिक्त खर्च नहीं होगा।<br><br><strong>अस्वीकरण:</strong> समीक्षाएं सार्वजनिक जानकारी और verified खरीदारों के फीडबैक पर आधारित हैं। परिणाम अलग हो सकते हैं।",
-        "default_pros": "- बिना किसी परेशानी के बिल्कुल वैसे काम करता है जैसा बताया गया\n- सस्ते विकल्पों से काफी बेहतर\n- महीनों के नियमित उपयोग के बाद भी मजबूत",
-        "default_cons": "- उन्नत सुविधाओं के लिए निर्देश और विस्तृत हो सकते थे\n- शिपिंग के लिए पैकेजिंग और मजबूत हो सकती थी",
+        "write_in": "Brazilian Portuguese (português do Brasil)",
+        "unit_system": "métrico (°C, cm/m, ml/L, g/kg) — NUNCA usar °F, polegadas, oz ou libras",
+        "buy_btn_text": "Ver preço na Amazon →",
+        "shop_name": "Amazon",
+        "bottom_line": "Resumo",
+        "verified": "baseado em compradores verificados",
+        "what_i_like": "O que eu gosto",
+        "good_stuff": "✅ Os pontos positivos",
+        "worth_knowing": "❌ Vale saber",
+        "honest_take": "Minha opinião honesta",
+        "buy_if": "Compre se você...",
+        "skip_if": "Pule se você...",
+        "disclaimer": "📢 <strong>Divulgação de afiliados:</strong> Esta publicação contém links de afiliados. Se você comprar através deles, posso ganhar uma pequena comissão sem custo extra para você.<br><br><strong>Aviso legal:</strong> As avaliações são baseadas em informações públicas e feedback de compradores verificados. Os resultados podem variar.",
+        "default_pros": "- Funciona exatamente como descrito, sem problemas de configuração\n- Visivelmente melhor do que alternativas mais baratas\n- Mantém a qualidade após meses de uso regular",
+        "default_cons": "- As instruções poderiam ter mais detalhes para funções avançadas\n- A embalagem poderia ser mais resistente",
     },
     "kr": {
         "write_in": "Korean",
-        "buy_btn_text": "아마존에서 가격 확인 →",
+        "unit_system": "미터법 (°C, cm/m, ml/L, g/kg) — °F, 인치, oz, lbs 절대 사용 금지",
+        "buy_btn_text": "쿠팡에서 가격 확인 →",
+        "shop_name": "쿠팡",
         "bottom_line": "한줄 요약",
         "verified": "구매자 리뷰 기반",
         "what_i_like": "마음에 드는 점",
@@ -124,27 +132,32 @@ CSS = """<style>
 .fr-who{background:#f0f4ff;border-radius:12px;padding:18px 22px;margin:20px 0;font-size:14.5px}
 .fr-who strong{display:block;margin-bottom:8px;color:#2c3e7a;font-size:15px}
 .fr-buy-btn{display:inline-block;background:#ff9900;color:#111!important;text-decoration:none;padding:14px 32px;border-radius:10px;font-weight:700;font-size:15px;margin:6px 0}
+.fr-buy-btn.coupang{background:#e8343b;color:#fff!important;}
 .fr-disclaimer{font-size:12px;color:#aaa;margin-top:28px;padding-top:16px;border-top:1px solid #eee}
 p{font-size:15.5px;color:#333;margin-bottom:16px}
 </style>"""
 
-def make_amazon_link(product: dict) -> str:
-    original = product.get("link", "")
-    if "tag=" in original:
-        return original
-    sep = "&" if "?" in original else "?"
-    return original + sep + "tag=" + AMAZON_ID
+def make_buy_link(product: dict, lang: str) -> str:
+    if lang == "kr":
+        import urllib.parse
+        query = urllib.parse.quote(product.get("title", ""))
+        return f"https://www.coupang.com/np/search?q={query}"
+    else:
+        original = product.get("link", "")
+        if "tag=" in original:
+            return original
+        sep = "&" if "?" in original else "?"
+        return original + sep + "tag=" + AMAZON_ID
 
 def generate_post(product: dict, lang: str = "en") -> dict:
     cfg   = LANG_CONFIG.get(lang, LANG_CONFIG["en"])
     style = random.choice(STYLES.get(lang, STYLES["en"]))
-    link  = make_amazon_link(product)
+    link  = make_buy_link(product, lang)
 
     reviews  = product.get("reviews", {})
     features = product.get("features", [])
     specs    = product.get("specs", {})
 
-    # 실제 리뷰 텍스트
     pros_raw = "\n".join("- " + r for r in reviews.get("pros", []))
     cons_raw = "\n".join("- " + r for r in reviews.get("cons", []))
     if not pros_raw:
@@ -152,71 +165,71 @@ def generate_post(product: dict, lang: str = "en") -> dict:
     if not cons_raw:
         cons_raw = cfg["default_cons"]
 
-    # 제품 특징 텍스트
     features_text = "\n".join("• " + f for f in features) if features else "Not available"
+    specs_text    = "\n".join(f"• {k}: {v}" for k, v in specs.items()) if specs else "Not available"
 
-    # 스펙 텍스트
-    specs_text = "\n".join(f"• {k}: {v}" for k, v in specs.items()) if specs else "Not available"
-
-    buy_btn = (
-        '<a href="' + link + '" class="fr-buy-btn" target="_blank" rel="nofollow sponsored">'
+    btn_class = "fr-buy-btn coupang" if lang == "kr" else "fr-buy-btn"
+    buy_btn   = (
+        f'<a href="{link}" class="{btn_class}" target="_blank" rel="nofollow sponsored">'
         + cfg["buy_btn_text"] + '</a>'
     )
 
     prompt = f"""You are a real person who bought this exact product and used it for months. Write an honest, specific, helpful review.
 
-CRITICAL: Write the ENTIRE response in {cfg["write_in"]} only. Title, content, excerpt, tags — everything must be in {cfg["write_in"]}.
+CRITICAL RULES:
+1. Write the ENTIRE response in {cfg["write_in"]} only — title, content, excerpt, tags, everything.
+2. Unit system: {cfg["unit_system"]} — convert ALL measurements accordingly. Never use wrong units.
+3. Style: {style}
 
-=== PRODUCT INFO (USE THESE EXACT DETAILS) ===
+=== PRODUCT INFO ===
 Product Name: {product['title']}
 Price: {product['price']}
 Rating: {product['rating']}
 Category: {product['category']}
+Shop: {cfg["shop_name"]}
 
-=== ACTUAL PRODUCT FEATURES (from Amazon listing) ===
+=== ACTUAL PRODUCT FEATURES ===
 {features_text}
 
 === TECHNICAL SPECS ===
 {specs_text}
 
 === REAL BUYER REVIEWS ===
-PROS (from verified buyers):
+PROS:
 {pros_raw}
 
-CONS (from verified buyers):
+CONS:
 {cons_raw}
 
 === WRITING RULES ===
-1. Write in {cfg["write_in"]} only — no other language
-2. Style: {style}
-3. MUST mention specific features, dimensions, real numbers from the product info above
-4. NEVER make up features that aren't in the product info
-5. Sound like a real human — use "I", personal experiences, casual phrases
-6. Be specific: if it's a water bottle, mention "24-hour cold retention" not just "keeps drinks cold"
-7. Title must include the ACTUAL product name and be SEO-optimized (under 65 chars)
-8. Include both genuine praise AND honest criticism
+- Use {cfg["unit_system"]} — convert any imperial measurements to metric if needed
+- Mention SPECIFIC features — never make up specs
+- Write as a real person: use "I", share personal moments, casual phrases
+- Translate specs into daily-life meaning: not "946ml" but "enough for a full day without refilling"
+- Include genuine pros AND honest cons
+- Title must include the actual product name, SEO-optimized, under 65 chars
 
-Use exactly this HTML structure:
+HTML structure:
 <div class="fr-review">
-<div class="fr-summary-box"><p class="fr-verdict">{cfg["bottom_line"]}</p><p class="fr-one-line">One punchy honest sentence that mentions a specific feature</p></div>
+<div class="fr-summary-box"><p class="fr-verdict">{cfg["bottom_line"]}</p><p class="fr-one-line">One punchy sentence</p></div>
 <div class="fr-rating"><span class="fr-stars">⭐⭐⭐⭐⭐</span><span class="fr-rating-text">{product['rating']} — {cfg["verified"]}</span></div>
-<p>Natural 2-3 sentence intro mentioning why you bought it and first impression</p>
-<div class="fr-section"><h2>{cfg["what_i_like"]}</h2><p>2-3 paragraphs with SPECIFIC details from the features list. Mention real numbers, dimensions, actual performance.</p></div>
+<p>2-3 sentence intro</p>
+<div class="fr-section"><h2>{cfg["what_i_like"]}</h2><p>2-3 paragraphs with specific real-life experiences</p></div>
 <div class="fr-pros-cons">
-<div class="fr-pros"><h3>{cfg["good_stuff"]}</h3><ul><li>Specific pro with detail</li><li>Specific pro with detail</li><li>Specific pro with detail</li></ul></div>
-<div class="fr-cons"><h3>{cfg["worth_knowing"]}</h3><ul><li>Specific con with detail</li><li>Specific con with detail</li></ul></div>
+<div class="fr-pros"><h3>{cfg["good_stuff"]}</h3><ul><li>specific pro</li><li>specific pro</li><li>specific pro</li></ul></div>
+<div class="fr-cons"><h3>{cfg["worth_knowing"]}</h3><ul><li>specific con</li><li>specific con</li></ul></div>
 </div>
-<div class="fr-section"><h2>{cfg["honest_take"]}</h2><p>2 paragraphs about real-world use. Who benefits most, any limitations.</p></div>
+<div class="fr-section"><h2>{cfg["honest_take"]}</h2><p>2 paragraphs</p></div>
 <div class="fr-who">
-<strong>{cfg["buy_if"]}</strong><p>2-3 specific types of people who'd love this</p>
-<strong>{cfg["skip_if"]}</strong><p>1-2 honest reasons someone might want something else</p>
+<strong>{cfg["buy_if"]}</strong><p>2-3 specific types</p>
+<strong>{cfg["skip_if"]}</strong><p>1-2 honest reasons</p>
 </div>
 <div class="fr-section">{buy_btn}</div>
 <p class="fr-disclaimer">{cfg["disclaimer"]}</p>
 </div>
 
-Respond ONLY in valid JSON, no markdown, no explanation:
-{{"title": "SEO title under 65 chars with actual product name", "content": "complete HTML", "excerpt": "summary under 160 chars", "tags": ["tag1","tag2","tag3","tag4","tag5"]}}"""
+Respond ONLY in valid JSON, no markdown:
+{{"title": "title", "content": "complete HTML", "excerpt": "under 160 chars", "tags": ["tag1","tag2","tag3","tag4","tag5"]}}"""
 
     message = client.messages.create(
         model="claude-sonnet-4-5",
