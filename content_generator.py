@@ -116,6 +116,9 @@ CSS = """<style>
 .fr-buy-btn.coupang{background:#e8343b;color:#fff!important;}
 .fr-disclaimer{font-size:12px;color:#aaa;margin-top:28px;padding-top:16px;border-top:1px solid #eee}
 p{font-size:15.5px;color:#333;margin-bottom:16px}
+.fr-table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px}
+.fr-table th,.fr-table td{border-bottom:1px solid #eee;padding:10px 8px;text-align:left}
+.fr-table th{background:#f7f7f7;font-weight:600}
 </style>"""
 
 
@@ -136,11 +139,19 @@ def _facts(p: dict) -> str:
     specs = "\n".join(f"- {k}: {v}" for k, v in p.get("specs", {}).items())
     rv = p.get("reviews", {}) or {}
     pros = "\n".join("- " + r for r in rv.get("pros", [])) or "- (no scraped reviews; rely on features)"
-    cons = "\n".join("- " + r for r in rv.get("cons", [])) or "- (no scraped complaints; mention typical trade-offs cautiously)"
-    return (f"Name: {p['title']}\nPrice (approx.): {p.get('price','')}\nRating: {p.get('rating','')}\n"
+    cons = "\n".join("- " + r for r in rv.get("cons", [])) or "- (no complaint data: do NOT invent specific complaints; only note honest limitations that follow from the facts, e.g. scented = not for fragrance-sensitive people, large size = takes counter space)"
+    return (f"Name: {p['title']}\nPrice at time of writing: {p.get('price','')}\n"
+            f"Rating: {p.get('rating','')} from {p.get('review_count','many')} Amazon ratings\n"
             f"Features:\n{feats}\n{('Specs:' + chr(10) + specs) if specs else ''}\n"
             f"Buyer praise:\n{pros}\nBuyer complaints:\n{cons}")
 
+
+HOOK_RULES = """HOOK RULES (this is what makes people click the button):
+- Open with the reader's problem in one punchy sentence (e.g. dry skin that stings after washing), then say how this product answers it.
+- Use concrete social proof from the data: star rating and the number of ratings (e.g. "4.7 stars from 148,000+ buyers").
+- Keep paragraphs short (2-3 sentences). Scannable. No filler like "In today's world".
+- Title formulas that work: "<Product> Review: Worth It for <use case>?", "<Product>: <number> Things Buyers Love (and 2 Complaints)", "Is <Product> Worth the Hype? What <N> Reviews Say".
+"""
 
 JSON_TAIL = ('Respond ONLY with valid JSON, no markdown:\n'
              '{"title": "...", "content": "complete HTML", "excerpt": "under 155 chars", '
@@ -155,6 +166,7 @@ def generate_post(product: dict, lang: str = "en") -> dict:
 Language: {cfg["write_in"]} ONLY (title, content, excerpt, tags). Units: {cfg["units"]}.
 
 {HONESTY_RULES}
+{HOOK_RULES}
 === PRODUCT ===
 {_facts(product)}
 
@@ -164,7 +176,8 @@ Use exactly this HTML (fill the placeholders, keep classes):
 <div class="fr-review">
 <div class="fr-summary-box"><p class="fr-verdict">{cfg["bottom_line"]}</p><p class="fr-one-line">one clear sentence: who it's for and why</p></div>
 <div class="fr-rating"><span class="fr-stars">⭐⭐⭐⭐⭐</span><span class="fr-rating-text">{product.get('rating','')} {cfg["rating_note"]}</span></div>
-<p>2-3 sentence intro: what problem this product solves and who searches for it</p>
+<div class="fr-section">{_btn(link, cfg)}</div>
+<p>hook intro (see HOOK RULES), 2-3 short sentences</p>
 <div class="fr-section"><h2>{cfg["love"]}</h2><p>2-3 paragraphs grounded in the features and buyer praise above</p></div>
 <div class="fr-section"><h2>{cfg["gripes"]}</h2><p>1-2 paragraphs on real downsides from buyer complaints</p></div>
 <div class="fr-pros-cons">
@@ -195,12 +208,14 @@ def generate_guide(products: list, category: str, lang: str = "en") -> dict:
 Language: {cfg["write_in"]} ONLY. Units: {cfg["units"]}.
 
 {HONESTY_RULES}
+{HOOK_RULES}
 {chr(10).join(blocks)}
 
 Structure (keep classes):
 <div class="fr-review">
 <div class="fr-summary-box"><p class="fr-verdict">{cfg["picks"]}</p><p class="fr-one-line">one line naming the best overall and the best budget pick</p></div>
-<p>short intro: what to look for when buying this type of product</p>
+<p>hook intro: the reader's problem + what to look for, 2-3 short sentences</p>
+<table class="fr-table"><tr><th>Product</th><th>Best for</th><th>Rating</th><th>Price</th></tr>(one row per product; last cell = price text)</table>
 For each product: <div class="fr-section"><h2>N. Product name — best for X</h2><p>2 paragraphs from facts + buyer feedback</p><div class="fr-pros-cons"><div class="fr-pros"><h3>{cfg["good"]}</h3><ul>..</ul></div><div class="fr-cons"><h3>{cfg["bad"]}</h3><ul>..</ul></div></div>BUY BUTTON HTML</div>
 <div class="fr-section"><h2>{cfg["how"]}</h2><p>explain criteria honestly (ratings, buyer reviews, price, specs — not hands-on testing)</p></div>
 <p class="fr-disclaimer">{cfg["disclaimer"]}</p>
@@ -211,7 +226,7 @@ Title: search-intent style like "Best ... in 2026" / "Top 3 ... for ...", under 
     data = _call(prompt, max_tokens=6000)
     data["content"] = CSS + build_image_html(products[0]) + data["content"]
     key = "-".join(sorted(p.get("asin", "") for p in products))
-    data["product"] = {"asin": "guide" + hashlib.md5(key.encode()).hexdigest()[:8], "category": category,
+    data["product"] = {"category_label": category, "asin": "guide" + hashlib.md5(key.encode()).hexdigest()[:8], "category": category,
                        "title": products[0]["title"]}
     data["lang"] = lang
     return data

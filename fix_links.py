@@ -8,7 +8,10 @@ import re
 
 import requests
 
-from link_checker import ALIVE, check_asin, search_link
+import json
+from link_checker import ALIVE, DEAD, check_asin, search_link
+
+VERIFIED = {p["asin"] for p in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "products.json")))["products"]}
 
 WP_URL = os.environ["WP_URL"].rstrip("/")
 AUTH = {"Authorization": "Basic " + base64.b64encode(
@@ -59,7 +62,7 @@ def main():
             if asin not in cache:
                 cache[asin] = check_asin(asin)
                 checked += 1
-            if cache[asin] != ALIVE:
+            if cache[asin] == DEAD or (cache[asin] != ALIVE and asin not in VERIFIED):
                 new = re.sub(r'https://www\.amazon\.com/dp/' + asin + r'[^"\'\s<]*', search_link(name), new)
                 fixed_links += 1
                 print(f"  [{cache[asin]}] {asin} → search '{name[:50]}'")

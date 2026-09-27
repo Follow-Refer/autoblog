@@ -1,0 +1,1736 @@
+{
+ "updated": "2026-09-27",
+ "category_names": {
+  "skincare": "skincare",
+  "haircare": "hair care",
+  "beauty-tools": "beauty tools",
+  "kitchen": "kitchen appliances",
+  "kitchen-tools": "kitchen gadgets",
+  "cleaning": "cleaning supplies",
+  "storage": "home organization",
+  "fitness": "fitness gear",
+  "pet": "pet supplies",
+  "baby": "baby essentials",
+  "health": "personal care"
+ },
+ "products": [
+  {
+   "asin": "B08KT2Z93D",
+   "category": "skincare",
+   "title": "eos Shea Better Body Lotion- Vanilla Cashmere, 24-Hour Moisture, 16 fl oz",
+   "price": "$9.97",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "78,999",
+   "features": [
+    "24-HOUR DEEP HYDRATION: This scented moisturizing lotion delivers long-lasting hydration to relieve dry skin, leaving your whole body feeling smooth, radiant, and deeply replenished.",
+    "SHEA BUTTER MOISTURE BARRIER: Powered by our nutrient-rich blend of 7 oils and butters, including wild-harvested shea butter and protective Vitamin E, to soften skin and lock in moisture.",
+    "FAST-ABSORBING NON-GREASY FORMULA: A lightweight daily body moisturizer that glides on smoothly and absorbs instantly into the skin without leaving a heavy, sticky, or greasy residue.",
+    "INTOXICATING VANILLA CASHMERE SCENT: Wraps your skin in the internet's favorite gourmand fragrance featuring sensory notes of whipped vanilla, cozy caramel, and soft musk.",
+    "DERMATOLOGIST RECOMMENDED: Dermatologist-tested, hypoallergenic, and completely free of parabens, phthalates, and gluten. Cruelty-free and designed for your daily self-care routine."
+   ],
+   "image": "https://m.media-amazon.com/images/I/61IQUadfGEL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B09V7Z4TJG",
+   "category": "skincare",
+   "title": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care",
+   "price": "$18.90",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "32,980",
+   "features": [
+    "Exfoliates and Refines Pores - Perfect for those concerned about enlarged pores, seeking smoother skin, battling greasy skin from excess sebum",
+    "Power of Nature - Dive deep with White Willow Bark (Natural BHA), Citric Acid (AHA), and soothing botanical extracts. Nature's finest ingredients come together for optimal skin clarity.",
+    "Lavender Calmness - Experience therapeutic relaxation with our pads, merging lavender's soothing essence with deep cleansing benefits.",
+    "Transformative Results - Achieve clearer skin with our potent formula: witness a significant reduction in Sebum/Oil by 47.1% and a dramatic decrease in Pore Waste by 87.3%.",
+    "HOW TO USE - After cleansing, swipe with the embossed side, follow with the silky side, and finish by lightly patting for absorption."
+   ],
+   "image": "https://m.media-amazon.com/images/I/71Mcspt-6AL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B07PBXXNCY",
+   "category": "skincare",
+   "title": "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted, Makeup Remover Dry Wipes, Ult",
+   "price": "$17.95",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "43,231",
+   "features": [
+    "1 pack of Clean Skin Club ORIGINAL Clean Towels XL for a total of 50 face towels.",
+    "50 Single-use, dry facial towels that are dermatologist tested and approved.",
+    "⁠Clinically shown to help individuals achieve visibly clearer skin, less irritation, and to reduce the appearance of redness.",
+    "Always have a clean, single use towel to dry your face.",
+    "Advanced cellulose fiber technology designed to support overall skin health and skin barrier function.",
+    "Face Towels that are ⁠100% vegan & cruelty free."
+   ],
+   "image": "https://m.media-amazon.com/images/I/61Cn1ooILhL._SL1077_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00U2VQZDS",
+   "category": "skincare",
+   "title": "Neutrogena Makeup Remover Micellar Wipes, 2 Pack of 25 Ct",
+   "price": "$9.97",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "121,979",
+   "features": [
+    "Tough on makeup, gentle on skin: Hypoallergenic makeup remover wipes gently remove up to 99% of dirt, including waterproof mascara, and lift away oil and impurities",
+    "100% plant-based cloths: Patented cleansing technology formulated with hyaluronic acid, a triple emollient blend, and micellar water to lift away dirt and impurities with no disruption to the skin bar",
+    "Ophthalmologist-tested wipes: Gentle enough for sensitive skin and the delicate eye area; clinically proven to deliver skin that feels refreshingly clean and soft",
+    "Gentle cleanse: These wipes are clinically proven to be gentle on the skin; hypoallergenic and cruelty-free; free of dyes, parabens, sulfates, phthalates, alcohol, and fragrance",
+    "Dermatologist recommended: From the Neutrogena Hydro Boost line, pair these micellar wipes with a lightweight Neutrogena moisturizer and face serum for a complete daily regimen"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71JnbwZyFoL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B01N9SPQHQ",
+   "category": "skincare",
+   "title": "La Roche-Posay Toleriane Double Repair Face Moisturizer",
+   "price": "$16.49",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "51,869",
+   "features": [
+    "Dual-Action - Repair & Long-Lasting Hydration For Face & Neck: Restores skin’s natural protective barrier in just 1 hour while delivering powerful 48-hour moisture for a healthier, rebalanced complexi",
+    "Daily Face Moisturizer With Microbiome Balancing Prebiotics: Features a unique prebiotic action that helps restore skin comfort and retail essential moisture to your skin's natural barrier. Face moist",
+    "Ceramide Moisturizer with Niacinamide & Glycerin: Formulated with Ceramide-3 to help retain moisture & maintain a healthy skin barrier. Niacinamide to helps restore skin's moisture barrier, & visibly ",
+    "Lightweight, Comforting Texture, Fast Aborbing: Absorbs quickly with a lightweight cream texture, providing immediate comfort & soothing hydration suitable for all skin types. Oil free moisturizer tha",
+    "Hydrating Moisturizer to Restore Healthy-Looking Skin: This moisturizer for face helps improve overall skin appearance & comfort, suitable for daily use without clogging pores or irritation"
+   ],
+   "image": "https://m.media-amazon.com/images/I/51x78epntaL._SL1060_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B074PVTPBW",
+   "category": "skincare",
+   "title": "Mighty Patch Hero Cosmetics Original Nighttime Acne Pimple Patches, 36 Ct",
+   "price": "$29.97",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "186,160",
+   "features": [
+    "THE ORIGINAL AWARD-WINNING ACNE PATCH. Mighty Patch is a hydrocolloid sticker that visibly flattens pimples overnight. No popping necessary. Just stick it on, get some beauty sleep, and wake up with c",
+    "SHRINKS ZITS IN 6 HOURS. With 50% more gunk-absorbing power than other brands, our pure medical-grade hydrocolloid effortlessly pulls the pus out of whiteheads and speeds up healing.",
+    "ALL-NIGHT ADHESION. Strong enough to stay on through a whole night of tossing, turning, and pillow-squishing. Easy to remove in the AM with zero redness or irritation.",
+    "BLENDS SEAMLESSLY INTO SKIN. Ultra-thin sticker with a translucent matte finish that keeps your pimple under wraps day or night. So comfortable, you’ll forget it’s even there.",
+    "PEACE-OF-MIND DESIGN. Our hydrocolloid acne patches are UV sterilized, non-toxic, and totally skin-safe. Each box comes with 36 or 72 medium dots (12 millimeters) on easy-peel perforated sheets."
+   ],
+   "image": "https://m.media-amazon.com/images/I/61p+1+md+8L._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B071914GGL",
+   "category": "skincare",
+   "title": "The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone",
+   "price": "$5.40",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "65,315",
+   "features": [
+    "EXFOLIATING TONER: Smoothes skin texture, visibly evens tone, and enhances luminosity with daily use.",
+    "POWERED BY 7% GLYCOLIC ACID: Promotes more even looking skin tone, reduces the appearance of lines, and wrinkles, and boosts radiance.",
+    "MULTI-FUNCTIONAL FORMULA: Can also be applied to the scalp to hydrate and rebalance dry scalp skin.",
+    "WITH PLANT-DERIVED BASED EXTRACTS: Contains Tasmanian Pepperberry a known anti-irritatant, along with aloe and ginseng.",
+    "IDEAL FOR EVENING USE: Apply once daily, preferably in the evening, avoiding contact with sensitive areas like the eyes."
+   ],
+   "image": "https://m.media-amazon.com/images/I/51bC4vVdkOL._SL1240_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0B2RM68G2",
+   "category": "skincare",
+   "title": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gif",
+   "price": "$19.00",
+   "rating": "4.5 out of 5 stars",
+   "review_count": "48,635",
+   "features": [
+    "PORE TIGHTENING & FIRMING: Formulated with ultra-low molecular collagen, this mask maximizes penetration and absorption. It refines enlarged pores, improves skin elasticity, and visibly smooths fine l",
+    "DEEP HYDRATION: The oligo-hyaluronic acid in the Biodance Bio-Collagen Real Deep Mask provides superior moisturizing effects compared to regular hyaluronic acid. It quickly hydrates the skin's surface",
+    "BRIGHTENS THE SKIN: Formulated with Galactomyces Ferment Filtrate and Niacinamide, it improves uneven skin tone and texture while offering antioxidant effects, resulting in healthier, more radiant ski",
+    "UNIQUE OVERNIGHT ABSORPTION: Each 1.19 oz bottle of essence is solidified into each mask sheet. Unlike regular sheet masks, our signature hydrogel mask becomes transparent as active ingredients melt d",
+    "SAFE FOR SENSITIVE SKIN: Formulated with non-toxic, non-irritant ingredients and completely free from 19 controversial substances. We ensure safe, hypoallergenic care that delivers deep, long-lasting "
+   ],
+   "image": "https://m.media-amazon.com/images/I/51ubxqzNGIL._SL1000_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B081KL2QYJ",
+   "category": "skincare",
+   "title": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Ac",
+   "price": "$9.42",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "83,623",
+   "features": [
+    "Millions sold – The Number One Best-Selling Acne Wash in the U.S.*, this daily foaming face cleanser clears, treats, and prevents breakouts. (*Data on File)",
+    "Starts working fast – A dermatologist-recommended antimicrobial treatment for acne pimples and stubborn breakouts that kills 99% of bacteria in just 15 seconds.",
+    "Maximum Strength – Contains 10% Benzoyl Peroxide, the highest concentration of this dermatologist-favorite, acne-fighting ingredient over the counter.",
+    "Multi-Use Cleanser – Helps break the acne cycle to clear and unclog pores on the face, chest, and back",
+    "Helps fight dryness – Acne treatments can be harsh and drying to the skin, so this cleanser for acne, whiteheads, and blackheads contains moisturizers to combat dryness. Non-comedogenic, unscented, an"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71I9gtceY8L._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0DPHQRLJC",
+   "category": "skincare",
+   "title": "eos Cashmere Body Wash- Vanilla Cashmere, Creamy Gel with Shea Butter, 16 fl oz",
+   "price": "$9.98",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "23,150",
+   "features": [
+    "VANILLA CASHMERE FRAGRANCE: Features notes of whipped vanilla, soft musk, and cozy caramel for a warm, indulgent, dessert-like scent that lingers long after you towel off",
+    "MOISTURIZING BODY WASH: A creamy body wash for daily use that whips into a rich, foamy lather and rinses clean, leaving skin hydrated, smooth, and comforted every time",
+    "SKIN-LOVING INGREDIENTS: Shea butter for soft skin works alongside cocoa butter, glycerin, vitamin E, and sunflower seed oil to moisturize and soften skin and help lock in moisture",
+    "SKIN-SAFE & pH-BALANCED: Dermatologist recommended, gynecologist and bikini area approved, with a pH-balanced formula suitable for sensitive skin",
+    "MADE TO LAYER: Pair with Vanilla Cashmere Body Lotion and Body Mist to build a long-lasting fragrance routine",
+    "GENTLE & KIND FORMULA: Vegan, cruelty-free, and made without parabens, phthalates, gluten, or synthetic dyes"
+   ],
+   "image": "https://m.media-amazon.com/images/I/715Se8v8DWL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B01N34XW93",
+   "category": "skincare",
+   "title": "La Roche-Posay Toleriane Purifying Foaming Facial Cleanser with Niacinamide",
+   "price": "$12.74",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "46,173",
+   "features": [
+    "Gently & Effectively Cleanses Makeup & Impurities: This daily purifying foaming gel cleanser effortlessly removes impurities, excess oil, and makeup without stripping skin, ideal for normal to oily se",
+    "Non-Stripping Cleanser that Protects Your Skin Barrier: Formula helps maintains skin's natural protective barrier and optimal pH balance, ensuring comfortable skin with no pore-clogging residue after ",
+    "Clinically proven results after daily use for all: 94% reported cleaner*, healthier skin*, and 92% found it effectively cleanses impurities, dirt, and oil*, suitable for all skin types. *Based on a 4 ",
+    "Soap-Free, Nourishing Formula with Niacinamide: Formulated with soothing La Roche-Posay Prebiotic Thermal Water, barrier-supporting Ceramide-3, and restoring Niacinamide for a healthier skin barrier​",
+    "Dermatologist-Tested for Sensitive Skin: Tested on sensitive skin, as well as dermatologist tested and allergy tested. This cleanser is soap-free, sulfate-free, oil-free, fragrance-free, non-comedogen"
+   ],
+   "image": "https://m.media-amazon.com/images/I/717F3ObzIeL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B08BW46XXK",
+   "category": "skincare",
+   "title": "Vanicream Daily Facial Moisturizer, Lightweight, Non-Greasy, 3 Fl Oz",
+   "price": "$13.29",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "25,936",
+   "features": [
+    "Designed for Sensitive Skin: Vanicream is the #1 Dermatologist Recommended Brand for Sensitive Skin*. Carefully formulated to be non-comedogenic, this moisturizer helps support skin prone to sensitivi",
+    "Hydrating Moisturizer: This rich but lightweight face moisturizer is formulated with hyaluronic acid and 5 key ceramides which help hydrate and retain skin’s moisture. Designed to wear under makeup or",
+    "No Common Irritants: The gentle formula contains no gluten, fragrance, dye, lanolin, parabens, botanical extracts, essential oils or other common skin irritants. A non-irritating daily moisturizer sui",
+    "Won’t Clog Pores: This fast-absorbing, pH balanced face lotion delivers long-lasting moisture without greasy heaviness. Skin is left feeling soft and deeply moisturized. Directions: Apply as needed da",
+    "Dermatologist-Tested: Awarded the Seal of Acceptance from the National Eczema Association, Vanicream Daily Facial Moisturizer contains ingredients that are essential components of the skin and benefit",
+    "The Most Important Ingredient is Trust: For over 50 years, we have been committed to offering skin care products that meet the needs of sensitive skin and deliver dependable results. Each formula is m"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61KvPxEVJlL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0DYTQ5GYQ",
+   "category": "skincare",
+   "title": "medicube Facial Cleanser Zero Pore Capsule Foam Cleanser",
+   "price": "$16.90",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "4,223",
+   "features": [
+    "[Blue Capsule Pore Care] Cica Exosome and Natural BHA help soften excess sebum, while Silica Particles gently exfoliate dead skin cells and impurities for refreshed, clear-looking skin with this facia",
+    "[AHA + BHA + PHA Gentle Exfoliation] AHA refines rough texture, PHA gently exfoliates, and BHA helps control excess oil and care for pores for smoother, glowing skin after cleansing.",
+    "[Deep Clean & Hydrating Finish] Amino Acid-based cleansing agents help this face wash deeply cleanse while maintaining moisture, leaving skin refreshed without tightness.",
+    "[Gentle Daily Cleanser for All] Dermatologist-tested non-comedogenic formula suitable for all skin types. This low-irritation facial wash cleanses without stripping moisture, supporting the skin's moi",
+    "[2-Step Double Cleansing] Step 1) Use Zero Cleansing Oil to melt away makeup and impurities. Step 2) Follow with Zero Capsule Foam Cleanser as your facial wash for a refreshing, deep-clean finish.",
+    "[Clinically Proven Results After 1 Use] This cleansing wash removes up to 99.78% of pore-clogging impurities, reduces excess sebum by 38.5%, and improves skin texture around pores by 6.71%. *Clinical "
+   ],
+   "image": "https://m.media-amazon.com/images/I/61vXRV5ShmL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B01MDTVZTZ",
+   "category": "skincare",
+   "title": "The Ordinary Niacinamide 10% + Zinc 1%, Smoothing Serum for Blemish-Prone Skin",
+   "price": "$6.70",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "67,317",
+   "features": [
+    "BOOSTS BRIGHTNESS & SMOOTHNESS: Niacinamide 10% + Zinc 1% visibly improves skin radiance and smooths texture in one week.",
+    "HYDRATING FORMULA: Lightweight water-based serum that reinforces the skin barrier and provides hydration in as little as 7 days.",
+    "CONTAINS NIACINAMIDE & ZINC PCA: High 10% concentration of Niacinamide (Vitamin B3) and 1% Zinc PCA to help control oil in 3 days.",
+    "REDUCES PORE VISIBILITY: Clinical testing shows appearance of pores is minimized in 4 weeks, improving signs of congesting.",
+    "APPLICATION INSTRUCTIONS: Apply a few drops to the face in the morning and evening. Patch test before use and avoid broken skin."
+   ],
+   "image": "https://m.media-amazon.com/images/I/612NxRjAoCL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00MEDOY2G",
+   "category": "skincare",
+   "title": "Dove Deep Moisture Body Wash, 30.6 oz Pump, Sulfate Free",
+   "price": "$11.69",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "86,670",
+   "features": [
+    "24-HOUR HYDRATION: Dove Deep Moisture Body Wash, with millions of MicroMoisture droplets, gently cleanses while leaving skin feeling soft, nourished and healthy-looking for 24 hours",
+    "NOURISHES DRY SKIN: Looking for a body wash for dry skin? This moisturizing cleanser helps deliver lotion-soft skin and long-lasting hydration without leaving skin feeling tight or dry",
+    "RICH, CREAMY LATHER: Featuring Dove's iconic scent with soft florals, vanilla and creamy musks, this body wash transforms into a luxurious lather for a comforting shower experience",
+    "MICROMOISTURE CARE: Made with plant-based moisturizers and skin-natural nourishers, this sulfate-free and paraben-free formula comes from the No. 1 dermatologist-recommended body wash brand",
+    "24-HOUR HYDRATION: Dove Deep Moisture Body Wash, with millions of MicroMoisture droplets, gently cleanses while leaving skin feeling soft, nourished and healthy-looking for 24 hours"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71JxjmbExxL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B014E2D6BY",
+   "category": "skincare",
+   "title": "grace & stella Award Winning Eye Patches for Puffy Eyes - Birthday Gifts for Women - Under Eye Mask for Dark Circles and Undereye Bags - Gifts for Mom",
+   "price": "$21.56",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "48,952",
+   "features": [
+    "Your Under Eye Skincare Routine for Dark Circles - Eyes are the first thing people notice. Feel confident and look your best, refreshed, awake, youthful, and brightened by adding these gold under eyes",
+    "Soothing formula for refreshed-looking eyes - Reduce puffiness, bags and swelling with these cooling under eye hydrating mask, and enjoy \"me-time\" while reducing the visibility of fine lines, smoothin",
+    "Unique Formula - Unlike other under eye patches for puffy eyes , these are Vegan, Paraben and Sulfate-Free ingredients that are gentle on sensitive skin. Formulated with Niacinamide to Illuminate Dull",
+    "Cool Eye Depuffers for Women & Men as a Christmas Gift, Stocking Stuffer, Birthday Gift, Bachelorette Goodie Bag, and for Party Favors! 30 Day Feel-Good Policy, if you're not 100% happy, just let us k",
+    "Loved by Millions - Used by Jessica Alba, Leona Lewis, Ayra Starr, and Emma Hernan from Selling Sunsets. The perfect dark circles under eye mask for women who enjoy self-care gifts, vegan, and effecti"
+   ],
+   "image": "https://m.media-amazon.com/images/I/712xND-FRiL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0D2Z3GGCY",
+   "category": "skincare",
+   "title": "medicube Capsule Cream with Deep Vitamin C for Radiance",
+   "price": "$18.90",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "28,446",
+   "features": [
+    "Pop & Blend - Enhance the delivery of Vitamin C deep into your skin with stabilized liposome capsules, promising visible improvements with consistent use.",
+    "Customizable Mark-Blast Mix - Customize the capsule-to-gel ratio for a stable, soothing blend that absorbs effortlessly into the skin for everyday use.",
+    "Concentrated Vitamin C - Contains 50% Sea Buckthorn Extract, 5% Niacinamide, and Pure Vitamin C, encapsulated for maximum freshness and effectiveness without oxidation.",
+    "Proven Skin Radiance Improvement - Skin radiance improved by 34.8% immediately and by 32.6% after 24 hours, providing both instant and lasting results.",
+    "Dermatologist-Tested & Gentle - Low irritation test completed with a skin irritation index of 0.00%. pH 5.8-7.8, no artificial colors, and sustainable packaging, perfect for daily use.",
+    "Patch Test Recommended: Based on a Primary Skin Irritation Patch Test, Deep Vita C Golden Capsule Facial Moisturizer is safe to use on sensitive skin. Perform a patch test on your body before applying"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71m8aGBgXqL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00AINMFAC",
+   "category": "haircare",
+   "title": "Nizoral Anti-Dandruff Shampoo with 1% Ketoconazole, Fresh Scent, 7 Fl Oz",
+   "price": "$28.99",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "113,073",
+   "features": [
+    "Controls Scalp Fungus: Nizoral shampoo is different because it doesn’t just address the symptoms, it gets right to the root of dandruff as it kills the fungus that causes it",
+    "Dandruff Shampoo For Men and Women: The only over the counter dandruff shampoo with Ketoconazole 1%, a clinically proven, powerful dandruff fighting ingredient",
+    "10X More Effective: The active ingredient in Nizoral is 10X more effective at killing scalp fungus, the primary cause of dandruff, than the active ingredient in the leading dandruff shampoo based on l",
+    "Gentle On Hair: Gentle enough to use on color treated, chemically processed, or gray hair"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71UKDMdW3KL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B08SNSSTPZ",
+   "category": "haircare",
+   "title": "L3 Level 3 Hair Texture Powder for Men, Volume, Natural Look, 30 g",
+   "price": "$9.59",
+   "rating": "4.5 out of 5 stars",
+   "review_count": "30,932",
+   "features": [
+    "NATURAL LOOK WITH A MEDIUM HOLD - Our hair powder for men gives you that desired natural look while providing you with volume and texture.",
+    "EASY TO APPLY - Our men's styling hair powder is very easy to apply and use. Simply sprinkle a small amount of powder and spread it through your hair.",
+    "ENHANCES TEXTURE FOR DRY HAIR - Perfect to use for pompadours, quiffs, fauxhawks, and more.",
+    "DELIVERS MATTE FINISH - The textured powder for men gives you the styling and volume you need, while also delivering a clean matte finish.",
+    "ADDS VOLUME AND TEXTURE - Our powder for hair gives you that second-day hair feel on clean hair!"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61E9d8d0PNL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B000YACKO0",
+   "category": "haircare",
+   "title": "Kenra Professional Volume Spray 25 | Super Hold Finishing & Styling Hairspray | Flake-free & Fast-drying | Wind & Humidity Resistance | All Hair Types",
+   "price": "$17.85",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "19,405",
+   "features": [
+    "Wind resistant up to 25MPH",
+    "High humidity resistance up to 72 hours",
+    "Super hold up to 120 hours",
+    "Flake-free & fast-drying"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61wJy8-liqL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B09HR5KSR8",
+   "category": "haircare",
+   "title": "K18 Leave-In Molecular Repair Hair Mask",
+   "price": "$29.99",
+   "rating": "4.3 out of 5 stars",
+   "review_count": "32,402",
+   "features": [
+    "4-Minute Molecular Hair Repair Treatment: A leave-in peptide hair mask designed to repair and reverse damage at the molecular level for stronger, smoother, more resilient hair in just 4 minutes.",
+    "How It Works: Patented K18PEPTIDE repairs hair at a molecular level to reverse damage from bleach, color, chemical services, and heat*. The biotech-developed peptide mimics and clicks into hair's kera",
+    "Works on All Hair Types: Because our hair treatment works at the innermost layer of the hair rather than only targeting the outer cuticle like many deep conditioning hair masks, it's effective on all ",
+    "Boosts Strength + Smoothness: Helps improve texture, manageability, and bounce with a highly concentrated hair cream formula with detangling and softening benefits. Most see results after 2-3 uses.",
+    "How to Use: Shampoo, skip conditioner, and apply 1-3 pumps of the leave in hair mask to clean, towel-dried hair. Let sit for 4 minutes, do not rinse, then style as usual. Use for 4-6 consecutive washe"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71WKpWKG6kL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0009FHJRS",
+   "category": "haircare",
+   "title": "Toppik Hair Building Fibers, Fill In Fine or Thinning Hair Instantly Thicker, Fuller Looking Hair 9 Shades,4 size options",
+   "price": "$24.95",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "10,679",
+   "features": [
+    "Toppik hair fibers for thinning hair instantly fill in thinning areas",
+    "Our hair fibers for thinning hair can help both men and women to conceal hair loss",
+    "Toppik hair fibers make fine hair look completely thick and full; avoid contact with eyes when using",
+    "Great as a root touch-up between colorings and hair fillers for thinning hair",
+    "Resist wind, rain, and perspiration for long-lasting results in all conditions",
+    "Simple style your hair, then shake or spray in fibers and pat to disperse"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81+cK9nfl1L._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0DMZT3JT2",
+   "category": "haircare",
+   "title": "Wet Brush Original Detangler Hair Brush, Black Frost, For All Hair Textures",
+   "price": "$7.59",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "78,453",
+   "features": [
+    "Original Detangler: This Wet Brush Original Detangler helps your hair stay strong and healthy! Gently loosens knots, on wet or dry hair, without pulling or snagging. The moment you use it, you'll feel",
+    "Untangle Your World: IntelliFlex bristles glide through tangles with ease with 55% less breakage for healthier-looking hair",
+    "Painless: Flexible bristles minimize pain and protect against split ends and breakage.",
+    "All Hair Vibes Welcome: Works great for straight, curly, textured, thick, and wavy hair!",
+    "Love at First Brush: Often imitated, never duplicated – Wet Brush transforms your daily hair experience, solving the struggle of detangling."
+   ],
+   "image": "https://m.media-amazon.com/images/I/618bAHQ--CL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0BBBSMV94",
+   "category": "haircare",
+   "title": "Native Coconut & Vanilla Shampoo and Conditioner Contain Naturally Derived Ingredients | All Hair Types, Color & Treated, Fine to Dry Damaged, Sulfate",
+   "price": "$23.28",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "15,369",
+   "features": [
+    "Moisturizing Shampoo and Conditioner Set - This set hydrates and nourishes dry hair, replenishing moisture for a shiny, healthy look with less frizz. Enjoy soft, manageable locks with a sulfate-free f",
+    "Naturally Derived Ingredients - Native shampoo and conditioner set contains naturally derived and simple ingredients. Made with just 10 thoughtful ingredients that give strength to your strands such a",
+    "Vegan & Cruelty Free - Native shampoo and conditioner are formulated without the use of any animal derived ingredients or by products. Never tested on animals, except humans who volunteer to try Nativ",
+    "For All Hair Types - Gentle and compatible on all men and women hair type from fine to dry damaged, even colored and treated. Simply Lather, sing, rinse, and repeat for happy, full-bodied hair. Life’s",
+    "Coconut & Vanilla - The subtle sweetness of vanilla with the beachiness of coconut? Name a better duo. Includes a 16.5 fl oz shampoo and 16.5 fl oz conditioner in this set."
+   ],
+   "image": "https://m.media-amazon.com/images/I/71r9Zwpw9lL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0BP8BXZ8M",
+   "category": "haircare",
+   "title": "Nizoral Anti-Dandruff Shampoo with 1% Ketoconazole, Fresh Scent, 14 Fl Oz",
+   "price": "$16.88",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "9,448",
+   "features": [
+    "Controls Scalp Fungus: Nizoral shampoo is different because it doesn’t just address the symptoms, it gets right to the root of dandruff as it kills the fungus that causes it.",
+    "Dandruff Shampoo For Men and Women: The only over the counter dandruff shampoo with Ketoconazole 1%, a clinically proven, powerful dandruff fighting ingredient.",
+    "10X More Effective: The active ingredient in Nizoral is 10X more effective at killing scalp fungus, the primary cause of dandruff, than the active ingredient in the leading dandruff shampoo based on l",
+    "Gentle On Hair: Gentle enough to use on color treated, chemically processed, or gray hair."
+   ],
+   "image": "https://m.media-amazon.com/images/I/71epSFkXc2L._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B076FHJ3K5",
+   "category": "haircare",
+   "title": "Marc Anthony Grow Long, Detangling Leave-In Hair Conditioner Spray",
+   "price": "$8.67",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "88,519",
+   "features": [
+    "Long Hair Starts Strong: Marc Anthony’s Grow Long Super Fast Strength Leave-In Conditioner is a multitasking hair detangler spray that helps condition, detangle, strengthen, and reduce breakage, for h",
+    "Powered by Biotin, Caffeine & Ginseng: Marc Anthony’s Grow Long Leave-in Conditioner is developed with a hydrating and anti-breakage formula that supports your hair care goals by supporting hair’s str",
+    "Made for Daily Styling: Spray this leave in hair conditioner onto wet or damp hair from roots to ends, comb through, and leave in for smooth, soft, manageable strands every time.",
+    "Frizz-Fighting, Strand-Saving Formula: This leave in hair conditioner and detangler treatment works to repair visible damage and split ends while taming flyaways to help you achieve those perfect leng",
+    "Hair Care Innovation: Marc Anthony hair products in the Grow Long collection delivers professional quality formulas free from harmful sulfates, parabens, and phthalates. For men, women and all hair ty"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61BH4tqmNBL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B073CWSQ51",
+   "category": "haircare",
+   "title": "COLOR WOW Dream Coat – Anti-Humidity Frizz Control Spray for Glass Hair",
+   "price": "$32.00",
+   "rating": "4.3 out of 5 stars",
+   "review_count": "111,492",
+   "features": [
+    "Advanced anti-frizz formula leaves hair super glossy, glassy, ultra smooth",
+    "Groundbreaking humidity-blocking technology stops moisture from wrecking your style",
+    "Economical. Results last through 3-4 shampoos",
+    "Ultra-light spray feels like nothing is on the hair"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61+5tXghIWL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0DK8DCVK7",
+   "category": "beauty-tools",
+   "title": "Goddvenus Lash Clusters Kit Wispy Eyelash Clusters Lashes Natural DIY Lash Extension Kit 10-16mm Cluster Eyelash Extensions Kit 300pcs C Curl Individu",
+   "price": "$14.99",
+   "rating": "4.3 out of 5 stars",
+   "review_count": "11,898",
+   "features": [
+    "1. Natural Blend: The wispy lash clusters seamlessly blend with your natural lashes, providing a flawless and natural look.",
+    "2. Beginner-Friendly Eyelash Clusters: Designed for DIY eyelash extension at home, these lashes clusters are easy to apply, making individual lashes great for beginners who want to enhance their eye m",
+    "3. Cluster Eyelash Extensions with Lightweight Design: The wispy lash clusters are made with a thin cotton band, these natural eyelash clusters are incredibly lightweight, ensuring comfort throughout ",
+    "4. Versatile Use: Ideal for daily makeup, these cluster lashes can be used for various occasions, from casual everyday wear to special events.",
+    "5. Seamless Application: The wispy lash clusters are designed to attach easily and stay in place, ensuring a smooth and professional finish every time.",
+    "Please note：Dear customers, the tweezers is not included in this lash kit. Since tweezers are products that don't wear out easily, and for a low-carbon lifestyle and reduce \"disposable consumption\", w"
+   ],
+   "image": "https://m.media-amazon.com/images/I/912brfxrF+L._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B098NSHBQK",
+   "category": "beauty-tools",
+   "title": "Ear and Nose Hair Trimmer Clipper - 2026 Professional Painless Eyebrow & Facial Hair Trimmer for Men Women,Battery-Operated Trimmer with IPX7 Waterpro",
+   "price": "$9.99",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "95,772",
+   "features": [
+    "【Versatile Trimming Tool】 Made of high-quality stainless steel, this cordless Ear and Nose Hair Trimmer can effectively and comfortably remove unwanted hair from your nose, ears, eyebrows, beard, and ",
+    "【Dual-Edge Spinning Blades】 This nose hair trimmer features a dual-edge spinning blades system with a protective cover, inner 360° rotating design, which smoothly and precisely removes the hairs witho",
+    "【IPX7 Waterproof & Easy Cleaning】 It’s waterproof and washable, making it easy to deal with residual by soak cleaning or having it take a shower. Washable and removable trimmer head is convenient for ",
+    "【Energy-Saving & Whisper-Quiet Operation】 The upgraded motor is more powerful but less power-consuming by 5%. 1pc AA battery (NOT included) can run for more than 6 months for 5mins’ of use at a time. ",
+    "【Worry-Free Money-Back】 ZORAMI nose hair trimmer comes with a 30-day full-money-back without a lot of arguing required. Please feel free to reach us if you have any questions or dissatisfaction and we"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61ox1Eh9FaL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B08GSTPT8Y",
+   "category": "beauty-tools",
+   "title": "AOA Studio Collection makeup Sponge Set Latex Free and High-definition Set of 6 makeup Wonder blender For Powder Cream and Liquid, Super Soft Wonder B",
+   "price": "$9.95",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "23,112",
+   "features": [
+    "❣️Made from Latex free makeup blender sponge.",
+    "❣️Makeup sponges for BB cream, cosmetic foundation, concealer, powder, liquid, and etc.",
+    "❣️Super Soft feeling wonder blender.",
+    "❣️It's unique shape allows the blender to be used for many different products and easy to grip.",
+    "❣️Wet and dry use and easy to clean."
+   ],
+   "image": "https://m.media-amazon.com/images/I/61NvTGruLoL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0FHHFW9KD",
+   "category": "beauty-tools",
+   "title": "CORATED African Net Sponge Authentic, Shower Loofah Exfoliating Bath Sponge",
+   "price": "$9.49",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "3,945",
+   "features": [
+    "Deep Exfoliation: Engineered with textured nylon mesh, our sponge effectively removes dead cells, oil, and pore-clogging impurities without soap. Experience thorough cleansing that leaves skin visibly",
+    "45\" Elastic Design: Ultra-long stretchable net (extends to 45\") effortlessly covers hard-to-reach areas like your back, enjoy full-body exfoliation.",
+    "Quick-Dry Premium Nylon: 100% hydrophobic nylon material dries within 12 hours. Hygienic for daily use with no lingering odors.",
+    "Customizable Size, Multi-Purpose Use: One sponge adapts to all your skincare needs. Stretch long for hard-to-reach back, or ball up for focused scrubbing.",
+    "How to Use: Wet the sponge, apply body wash to create lather, and gently massage for cleansing and exfoliation. Rinse thoroughly after use and hang to dry.",
+    "Every Bath Cherished: Exclusively designed by CORATED, this exquisite packaging makes the exfoliating bath net a perfect choice for both personal use and gifting."
+   ],
+   "image": "https://m.media-amazon.com/images/I/81pus3PX53L._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0FMTSRKYL",
+   "category": "kitchen",
+   "title": "Keurig K-Mini Mate Single Serve K-Cup Pod Coffee Maker, Black",
+   "price": "$58.82",
+   "rating": "4.3 out of 5 stars",
+   "review_count": "4,491",
+   "features": [
+    "SMALL SPACE SAVER: Compact at 4\" wide for brewing the perfect cup of coffee in small kitchens, dorm rooms, offices, and surfaces with limited space.",
+    "12 OZ CUP: Features a One Cup reservoir for a freshly brewed cup, up to 12 oz.",
+    "TRAVEL MUG FRIENDLY: Fits up to a 7.25” to-go coffee cup so you can brew and go!",
+    "FRESH & MODERN: Featuring a sleek, minimal design that blends with your lifestyle.",
+    "ELEVATED COLORS: Available in aesthetic colors that match your style. *Cup not included*"
+   ],
+   "image": "https://m.media-amazon.com/images/I/618D34n8gLL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B08PP48979",
+   "category": "kitchen",
+   "title": "Cosori Electric Kettle, No Plastic Contact with Water, 1.7L, Black",
+   "price": "$20.41",
+   "rating": "4.5 out of 5 stars",
+   "review_count": "49,562",
+   "features": [
+    "No Plastic Contact with Your Water——With no plastic inside, water never touches plastic, ensuring a pure taste and safer drinking experience",
+    "Faster Than a Stovetop Kettle——Heats 0.5L (2 Cups) water in under 3 minutes for less wait time",
+    "Easy to Clean——Wide mouth and large-angle lid lets you reach every corner with ease",
+    "Safe & Easy to Use——Worry-free auto shut-off and boil-dry safety feature",
+    "Auto Shut-Off Safety——Automatically shuts off within 30 seconds after the water reaches a boil",
+    "Accurate Pouring——Precision spout and cool-touch handle help prevent spills and burns"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81bgn8np84L._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B01FHOWYA2",
+   "category": "kitchen",
+   "title": "Ninja Fit Compact Personal Blender, 700W, (2) 16oz Cups, QB3001SS",
+   "price": "$59.95",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "42,143",
+   "features": [
+    "PULSE TECHNOLOGY POWER: The powerful 700-watt push-to-blend motor base powers through everything in the cup for the best of Ninja blending as a smoothie maker, milkshake mixer, and more",
+    "NUTRIENT EXTRACTION* DRINKS: Unlock hidden vitamins and nutrients from whole fruits and veggies, blending even the portions that are usually discarded for a nutritious drink",
+    "BLENDS FROZEN INGREDIENTS: Crush ice and pulverize frozen ingredients for resort-like frozen drinks, smoothies, shakes, and more",
+    "COMPACT COUNTERTOP DESIGN: So compact that it fits on any countertop, with intuitive push-to-blend controls making it the go-to choice for shakes and smoothies",
+    "ON-THE-GO CONVENIENCE: Blend directly in the 16-oz. single-serve cup, attach the spout lid, and enjoy your creations wherever your day takes you",
+    "EASY CLEANUP: All parts are BPA-free and top-rack dishwasher safe for added convenience and peace of mind in any kitchen"
+   ],
+   "image": "https://m.media-amazon.com/images/I/710oNE8RCjL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0CPLVLFK2",
+   "category": "kitchen",
+   "title": "Turelar Immersion Blender Handheld Corded, 1100W 5 in 1 Hand Blender Set",
+   "price": "$35.95",
+   "rating": "4.5 out of 5 stars",
+   "review_count": "7,998",
+   "features": [
+    "No More Lumpy Chunks: Equipped with a strength 1100W full copper motor, providing for several times significantly stronger blending and chopping capabilities in seconds to create velvety smooth puree ",
+    "Easy-to-use Variable Speed Trigger Design: With a pulse-activated sensor, just follow your intuition to control over the recipe and reduce splattering. Getting a switch from low to high speed quickly ",
+    "Effortless Clean-Up, Scratch-Free: Features a unique food-grade nylon blade guard designed to minimize suction, preventing scratches on your pots and pans and keeping splashes at bay for a cleaner kit",
+    "Comfort At Its Best: Stylish and ergonomic grip offers a non-slip and comfortable grip when continuously blending ingredients. A perfect gift for mom, grandparents, camper or all the food lovers on ho",
+    "Versatile and Easy to Clean, Lifeime Support: Comes with multiple attachments that detach and swap out with a single click for swift cleaning. UL approved with advanced safety technology for long-last",
+    "Safe and Long-lasting: Safety even with hot ingredients. Reinforced food-grade blades for exceptional sharpness and durability, effortlessly blending large or tough ingredients. Breaker and chopper ar"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61XRVcpkxxL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B01GJOMWVA",
+   "category": "kitchen",
+   "title": "BLACK+DECKER 12-Cup Drip Coffee Maker with Vortex Brewing",
+   "price": "$29.73",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "50,486",
+   "features": [
+    "12-CUP DURALIFE GLASS CARAFE: The sturdy 12-cup* carafe has measurement markings for accurate filling and an easy-grip handle for comfortable pouring. *Cup equals approximately 5 ounces (varies by bre",
+    "SNEAK-A-CUP FEATURE TO PREVENT DRIPS: This feature temporarily stops the flow of coffee so you can pour your first cup before brewing ends without making a mess.",
+    "EASY-VIEW WATER WINDOW: The front-facing window shows you the exact amount of water that will turn into coffee, and the brew basket requires a standard paper coffee filter for proper operation.",
+    "DIGITAL CONTROLS WITH RUBBERIZED FEEL: Large, rubberized buttons give you full control of the coffeemaker, and the easy-read screen displays the clock, brew time, and programming options.",
+    "QUICKTOUCH PROGRAMMING WITH AUTO SHUTOFF: Easily program the 24-hour auto brew feature so you can wake up to a fresh pot of coffee or whenever you desire. 2-Hour Auto Shutoff for added safety and peac"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61Rdl5C2AHL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0C33CHG99",
+   "category": "kitchen",
+   "title": "Cosori TurboBlaze Air Fryer, 9-in-1, 6 Qt, PFAS-Free Ceramic Coating",
+   "price": "$89.99",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "21,958",
+   "features": [
+    "𝘼𝙞𝙧 𝙁𝙧𝙮𝙚𝙧 𝙐𝙥𝙜𝙧𝙖𝙙𝙚: Innovative TurboBlaze Technology delivers a powerful 3600 rpm fan speed and temperatures up to 450℉, achieving crispy, juicy results every time",
+    "𝙃𝙚𝙖𝙩𝙞𝙣𝙜 𝙐𝙥𝙜𝙧𝙖𝙙𝙚: Cosori's unique 5-fan speed system and precise 90°– 450°F temperature control deliver evenly cooked dishes with perfect texture in every bite",
+    "𝙋𝙁𝘼𝙎-𝙁𝙧𝙚𝙚 𝘾𝙚𝙧𝙖𝙢𝙞𝙘 𝙐𝙥𝙜𝙧𝙖𝙙𝙚: The basket and crisper tray feature a PFAS-free, nonstick ceramic coating for enhanced durability, heat resistance, and a healthier cooking experience.",
+    "𝙏𝙞𝙢𝙚 𝙐𝙥𝙜𝙧𝙖𝙙𝙚: Innovative TurboBlaze Technology helps speed up cooking and save time to deliver perfectly crispy family meals, even on busy days",
+    "𝘾𝙖𝙥𝙖𝙘𝙞𝙩𝙮 𝙐𝙥𝙜𝙧𝙖𝙙𝙚: The 6-quart square basket offers a wide, deep design, great for the entire family meals while saving you space on your kitchen counter or cabinet",
+    "𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙚 𝙐𝙥𝙜𝙧𝙖𝙙𝙚: Enjoy a quieter and more peaceful kitchen environment with TurboBlaze operating at less than 53dB even on the highest fan speed"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81R9sA3IyBL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B09715G57M",
+   "category": "kitchen",
+   "title": "Keurig K-Express Single Serve K-Cup Pod Coffee Maker, Black",
+   "price": "$124.99",
+   "rating": "4.3 out of 5 stars",
+   "review_count": "51,728",
+   "features": [
+    "STRONG BREW: Increases the strength and bold taste of your coffee’s flavor.",
+    "3 CUP SIZES: Brew an 8, 10, or 12 oz. cup at the push of a button.",
+    "MULTIPLE CUP WATER RESERVOIR: 42oz. removable reservoir lets you brew up to 4 cups before refilling. 8 oz. cup size",
+    "FAST & FRESH BREWED: Delicious coffee made in minutes.",
+    "TRAVEL MUG FRIENDLY: Removable drip tray accommodates travel mugs up to 7.4” tall.",
+    "ENERGY EFFICIENT: Auto off feature turns off your coffee maker 5 minutes after the last brew, helping to save energy."
+   ],
+   "image": "https://m.media-amazon.com/images/I/71xuVr0CPbL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0CNY1F31S",
+   "category": "kitchen",
+   "title": "Chefman Air Fryer – 4 QT Compact Airfryer for Quick & Easy Meals in Minutes, Features Hi-Fry Technology for Extra Crisp, Touchscreen Controls with 4 P",
+   "price": "$49.99",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "3,835",
+   "features": [
+    "FAST AND EASY: This compact air fryer handles any culinary challenge. Customize cooking time and temperature with the digital touch screen display or use one of four preset functions for quick, one-to",
+    "450°F HI-FRY TECHNOLOGY: Achieve the perfect finishing crunch on your air-fried favorites. Increase the heat to 450°F during the final two minutes of cooking: perfect for extra crispy chicken tenders ",
+    "STYLISH AND COMPACT: The sleek, narrow design of this air fryers maximizes its 4-quart capacity while minimizing its countertop footprint. Its compact size makes it a great space saver, fitting perfec",
+    "HEALTHY COOKING: Enjoy delicious meals with little-to-no oil. This Chefman small air fryer lets you cook healthier, low-fat meals that still taste amazing",
+    "SHAKE NOTIFICATIONS: Get notified with an audible alarm halfway through cooking, reminding you to shake your food for the crispiest results possible",
+    "SIMPLE CLEAN-UP: The 4-quart nonstick basket and rack are both dishwasher safe, making clean-up quick and easy. The stylish matte-black finish is timeless and easy to wipe clean with a damp cloth"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71Ld+1SBc5L._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B003OAJGJO",
+   "category": "kitchen",
+   "title": "Crock-Pot 7-Quart Manual Slow Cooker, Family Size Serves 8+ People & Fits 6-lb Roast, Removable Stoneware with Warming Setting, Dishwasher Safe for Ea",
+   "price": "$61.85",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "62,416",
+   "features": [
+    "Generous Capacity: 7-quart slow cooker that comfortably serves 9+ people or fits a 7-pound roast",
+    "Cooking Flexibility: High or low slow cooking settings, with convenient warm function for ideal serving temperature",
+    "Convenient: Set it and forget it feature enables you to cook while at work or performing daily tasks",
+    "Minimal Clean-Up: One-pot cooking reduces dishes; lid and removable stoneware are dishwasher safe",
+    "Versatile: Removable stoneware insert can be used in the microwave or an oven up to 400°F",
+    "Stylish: Stainless steel exterior with black accents and practical plastic handles"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71pKe7+88ZL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0C5Z8VCHX",
+   "category": "kitchen",
+   "title": "Chefman Electric Kettle, 1.8L 1500W, Hot Water Boiler, Removable Lid for Easy Cleaning, Auto Shut Off, Boil-Dry Protection, Stainless Steel Filter, BP",
+   "price": "$20.78",
+   "rating": "4.5 out of 5 stars",
+   "review_count": "14,084",
+   "features": [
+    "Fast Boiling: Experience rapid boiling with this 1500W electric kettle. Get hot water in just 3 minutes, perfect for making tea, coffee, and other hot beverages efficiently.",
+    "Safety Assured: Ensure safe and worry-free boiling with automatic shutoff and boil-dry protection in this hot water kettle electric.",
+    "Cordless Convenience: Enjoy the freedom to serve anywhere with this cord-free electric water kettle. Leave the base plugged in for hassle-free use and effortless serving experience.",
+    "LED Indicator Lights: Blue LED lights illuminate during heating, providing clear visibility and assurance of the water warming process in this electric tea kettle, and turn off when water is boiled.",
+    "Sleek & Stylish Design: Elevate your kitchen's aesthetic with this borosilicate glass water kettle, complemented by stainless steel accents and blue LED lights for a modern, sophisticated look.",
+    "Easy-Grip & Pour: Ensure comfortable gripping and mess-free pouring with a 360-degree swivel base in this water boiler kettle electric. Enjoy clean, convenient pouring and serving with a drip-free spo"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81hvKNPIHKL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0CKTYP1JT",
+   "category": "kitchen",
+   "title": "Ninja Professional Blender 2.0, 1200W, Auto-iQ, 72oz Pitcher, BR201AMZ",
+   "price": "$79.99",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "2,370",
+   "features": [
+    "POWERFUL 1200W MOTOR: 1200-watt motor base is made for powering through the toughest ingredients for smoothies, shakes, frozen drinks, and more",
+    "AUTO-IQ INTELLIGENT TECHNOLOGY: Auto-iQ technology with a Crush preset program combines unique timed pulsing, blending, and pausing patterns that take the guesswork out of blending",
+    "XL FAMILY-SIZE PITCHER: 72-oz.* full-size pitcher is great for making large batches for the whole family, with 64-oz. max liquid capacity clearly marked",
+    "ICE CRUSHING BLADES: Stacked blade assembly with Total Crushing blades turns ice to snow for shakes, frozen drinks, and creamy textures",
+    "PRECISE MANUAL CONTROL: Low, medium, high, and pulse manual speed settings allow for complete control of your blend",
+    "EASY CLEANUP DESIGN: Containers, lids, and blades are all BPA-free and top-rack dishwasher safe for quick care"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61rZJywpS-L._AC_SL1000_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0D3W6XGLR",
+   "category": "kitchen",
+   "title": "Dash Rapid Egg Cooker, 7 Eggs, Hard Boiled, Poached & Omelettes, Black",
+   "price": "$16.99",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "132,268",
+   "features": [
+    "Eggs in a Dash: This hard boiled egg cooker makes up to 7 eggs at once — soft-boiled, medium, or hard-boiled eggs are ready in minutes, no pot of boiling water needed and no stovetop babysitting",
+    "Egg Poacher and Omelette Maker: Use the Poaching Tray to make poached eggs for Eggs Benedict, avocado toast, and more, or use the Omelette Bowl to whip up a quick frittata for busy mornings",
+    "Auto Shut-Off Egg Steamer: This egg steamer for hard boiled eggs uses a thermal sensor that shuts off and chimes when the water evaporates, so eggs never overcook and every batch comes out just right",
+    "Mini Egg Cooker, Big Style: This small egg cooker comes in colors to match your kitchen and fits any countertop, dorm room, or RV; perfect for a quick protein-packed breakfast or easy meal prep",
+    "Get Crackin': Includes a Boiling Tray, Poaching Tray, Omelette Bowl, Measuring Cup with egg-piercing Pin & Recipe Guide; all the accessories nest inside for compact, clutter-free storage"
+   ],
+   "image": "https://m.media-amazon.com/images/I/51lILkbQ4zL._AC_SL1024_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B076VB5JFQ",
+   "category": "kitchen",
+   "title": "TOSHIBA Countertop Microwave Oven, 1.2 Cu.Ft, 1000W, Stainless Steel",
+   "price": "$148.99",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "21,399",
+   "features": [
+    "Microwave output power 1000 watts, input power 1600 watts. External dimensions 20.6 x 14.6 x 11.8 inches (WxDxH); includes 12.4-inch glass turntable.",
+    "Smart Sensor Technology for Optimal Cooking: Automatically adjusts cooking time and power based on food humidity, ensuring perfectly cooked meals every time. Say goodbye to overcooked or undercooked d",
+    "6 Preset Menus: This countertop microwave features 6 preset menu options for popular foods like pizza, veggie, sensor reheat and more.",
+    "10 Unique Power Levels with clock and kitchen timer: Tailor your cooking power levels for greater culinary flexibility, making it an essential kitchen tool. Perfect for everything from deodorization t",
+    "Easy Defrost & One touch start: Defrost your frozen food by weight or by time. Quick access to start the microwave from 1 to 6 minutes cooking at full power."
+   ],
+   "image": "https://m.media-amazon.com/images/I/61Y2j9uiY5L._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00S93EQUK",
+   "category": "kitchen-tools",
+   "title": "Alpha Grillers Instant Read Meat Thermometer Digital, Cooking, Food, Grill",
+   "price": "$12.31",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "92,383",
+   "features": [
+    "Instant Read Food Thermometer | Our instant read thermometer features a temperature probe and advanced, highly accurate technology with 1-2 seconds response time; Instructions, meat temperature chart,",
+    "Multi-Use | From bbq thermometer to baking thermometer, our digital food thermometer for cooking is perfect for meats, liquids, deep frying and candy making. For air fryer, oven, grill, BBQ, griddle, ",
+    "Easy-Read Digital Thermometer For Cooking | Large instant thermometer dial with bright blue backlight means you can always read the temperature, whether you are grilling in the dark or baking in your ",
+    "Waterproof (IP67) | Perfect digital cooking thermometer for meat, our digital meat thermometer for food of any kind is waterproof IP67 rated and can be washed and cleaned under running water. A must-h",
+    "Birthday Gifts for Men | Our meat thermometers for cooking and grilling are delivered in an elegant box, making it the ideal husband birthday gift or mens birthday gift ideas. Makes for the perfect fo"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81bpKKv68-L._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0CJF94M8J",
+   "category": "kitchen-tools",
+   "title": "TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Cooking – 2 in 1 Olive Oil Dispenser Bottle for Kitchen Gadgets and Air Fryer Accessories, Salad, BB",
+   "price": "$8.99",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "47,721",
+   "features": [
+    "Lifetime Assurance: We stand behind the quality of our oil dispenser for kitchen. If you experience any issues or are not completely satisfied, simply reach out to us—anytime. Our lifetime support ens",
+    "Dual Dispensing: This oil mister offers both spray and pour options for total control while cooking. It’s a versatile oil dispenser bottle spray and pour as needed to keep your kitchen clean, organize",
+    "Precision Spray Nozzle: The olive oil spray bottle features a nozzle that delivers a fine mist or steady stream, offering precise control. It’s perfect for drizzling or spraying, making it an essentia",
+    "Control Oil Intake: Each spray dispenses 0.15g of oil, helping you manage your daily intake. This cooking oil sprayer is designed for healthier, more controlled cooking with minimal waste.",
+    "BPA-Free & Safe: Crafted from BPA-free glass, this cooking oil dispenser is odorless, non-toxic, and heat-resistant. It’s a safe and healthy addition to your kitchen essentials for everyday cooking."
+   ],
+   "image": "https://m.media-amazon.com/images/I/716HuBmcRsL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0CP4XY9QC",
+   "category": "kitchen-tools",
+   "title": "YARRAMATE 16 oz 2-in-1 Glass Olive Oil Sprayer for Cooking, Black",
+   "price": "$7.99",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "49,717",
+   "features": [
+    "Dual-Function Design & Multi-Purpose: Oil spray bottle for cooking offers the convenience of both spraying and pouring oil, suitable for a wide range of food preparation processes such as salad dressi",
+    "Premium & BPA-Free PP Materials: Olive oil sprayer is made of Food Grade BPA-free PP material and thick, unbreakable, lead-free glass, Transparent glass allows users to easily monitor the oil level, m",
+    "Refillable & Reusable: Cooking oil dispenser is 470ml, reduces frequency of refills, features a wide mouth opening, making it convenient to add oil without spills or splatters. Food grade spray bottle",
+    "Precise Oil Control: Cooking spray bottle can help to control the amount of oil while pouring or spraying. Each spray dispenses approximately 0.2 grams of oil, which is easily to control and measure y",
+    "Not Dirty Hands Design: Olive oil spray bottle is designed with the front-facing, prominent nozzle and the rear comfortable handle design enables users to achieve a fine, uniform, pure mist, users can"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71ZjnwrH7iL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B08N9Q24M9",
+   "category": "kitchen-tools",
+   "title": "Mueller The Real Original Pro Vegetable Chopper & Mandoline Slicer, 10-in-1",
+   "price": "$26.99",
+   "rating": "4.5 out of 5 stars",
+   "review_count": "34,193",
+   "features": [
+    "The Original Pro Chopper – Reliable Kitchen Performance Since 2013 – Crafted for everyday cooking, this durable chopper makes meal prep faster and easier. Slice, dice, and chop fruits, vegetables, and",
+    "8 Awesome Blades For the Price of 4 - Two different sized chopper blades and six interchangeable blades for slicing, julienne, grating & shredding offer the functionality of multiple kitchen tools in ",
+    "Unmatched Quality - A great pick for holiday exchanges, this kitchen essential makes an excellent choice for white elephant gifts or thoughtful Christmas gifts for women who enjoy cooking. Free-up cou",
+    "Make Incredible Meals in Half the Time – Busy lifestyles make us fall into the fast-food trap. It can take a lot of time and effort to dice, chop and slice the ingredients of a desired dish. Do not de",
+    "Live Customer Care – Talk to us via out toll-free number or live chat, not by email like our competitors. Mueller believes in making life easier, better and more enjoyable in all that we do. Our unpar"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81+tBoD7McL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0CHGFG64S",
+   "category": "kitchen-tools",
+   "title": "ChefAide 5 Pieces Silicone Spatulas Set, Heat Resistant Rubber Spatula",
+   "price": "$8.99",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "6,587",
+   "features": [
+    "Premium 100% Food Grade Silicone: The silicone spatula set is made of healthy and friendly material, resistant to high temperatures up to 600 °F. No more melting, cracking and worrying",
+    "One-Piece for Easy to Clean: With the unique Seamless One Piece Design, there is no crevices for food to stuck in, the handle will never enter the water. It is very easy to clean and dishwasher safe",
+    "Best Balance of Flexible and Sturdy: Too stiff or too soft? Nobody wants that! SO we experimented over and over again to try to find the best balance of hardness and flexibility. Here it is! They are ",
+    "Safe for Non-stick Cookware: Our Silicone rubber spatulas are gentle on cookware, leaving them unmarked, they're great for non-stick pans, you don’t have to worry about scratching your loving and new ",
+    "Versatile for Everyday Task: The kitchen utensils set include 5 spatulas which can meet all your needs, the sizes and shapes cover a wide variety of uses. Color availability is a plus. Get ready to st"
+   ],
+   "image": "https://m.media-amazon.com/images/I/51hm8-fJJkL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0F5X4FM3Q",
+   "category": "kitchen-tools",
+   "title": "0.5 Sec Instant Read Meat Thermometer Digital for Cooking, Red",
+   "price": "$12.31",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "8,169",
+   "features": [
+    "【8X Faster + 4X More Precise】: Upgraded with an industrial-leading professional thermocouple sensor, Themomonster meat thermometer digital with NIST certified ±0.5℉ precision provides you the accurate",
+    "【Temperature Lock & Long Probe】: With a 4 inch long probe and the temperature lock, you can easily measure and read the temperature away from the heat.",
+    "【Auto Flip Large LCD Display】: Features an innovative auto flip large LCD screen with exceptional brightness, this food thermometer is perfect for both left and right hand users outdoors and at night.",
+    "【100% Waterproof】: With upgraded 100% waterproof design, you can easily wash and clean your thermometer under running water.",
+    "【Motion Sensing Sleep/Wake】: Features a responsive motion-sensing mechanism, the thermometer will wake up instantly when you pick it up and auto-sleep after seconds if no operation were made for energ"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61is4F1PDOL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B085DVHQ57",
+   "category": "storage",
+   "title": "Owala FreeSip Stainless Steel Water Bottle 32 oz Very, Very Dark",
+   "price": "$29.99",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "139,598",
+   "features": [
+    "32-ounce insulated stainless-steel water bottle with a FreeSip spout and push-button lid with lock",
+    "Patented FreeSip spout designed for either sipping upright through the built-in straw or tilting back to swig from the spout opening",
+    "Protective push-to-open lid keeps spout clean; convenient carry loop doubles as a lock",
+    "Double-wall insulation keeps drinks cold for up to 24 hours; wide opening for cleaning and adding ice; cup holder-friendly base",
+    "This bottle is not compatible with standard automotive cupholders; it is best secured in cup holder organizers, door pockets, or bags during transport"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71Cfld2aMpL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0DF472VMZ",
+   "category": "storage",
+   "title": "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced Coffee Cup, Hot Coffee Travel Mug, BPA Free 12 oz, Vanilla Bean",
+   "price": "$29.99",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "15,004",
+   "features": [
+    "12-ounce insulated stainless-steel tumbler with a completely leak-proof lid",
+    "SmoothSip Slider spout offers an ultra-comfortable sip every time",
+    "Slide-top spout design prevents splashes or spills",
+    "Double-wall insulation keeps drinks hot for 6 hours and cold for up to 24 hours",
+    "BPA and phthalate-free. Hand wash cup, dishwasher-safe lid—manufacturer’s limited lifetime warranty"
+   ],
+   "image": "https://m.media-amazon.com/images/I/311JdFvhtVL._AC_SL1200_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0CP9YB3Q4",
+   "category": "storage",
+   "title": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz | Flowstate 3-Position Lid | Cup Holder Compatible for Travel | Insulated Stainless Steel Cu",
+   "price": "$33.45",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "205,448",
+   "features": [
+    "YOUR DREAM TUMBLER: Whichever way your day flows, the H2.0 FlowState tumbler keeps you refreshed with fewer refills. Double wall vacuum insulation means drinks stay cold, iced or hot for hours. Choose",
+    "ADVANCED LID CONSTRUCTION: Whether you prefer small sips or maximum thirst quenching, Stanley has developed an advanced FlowState lid, featuring a rotating cover with three positions: a straw opening ",
+    "EARTH-FRIENDLY DURABILITY: Constructed of 90% recycled BPA free stainless steel for sustainable sipping, the Stanley Quencher H2.0 has the durability to stand up to a lifetime of use. Eliminate the us",
+    "DISHWASHER SAFE: Spend less time hunched over the sink and more time doing the things you love. Cleaning your tumbler and lid couldn't be easier, just pop them into the dishwasher. Unlike plastic bott",
+    "LIFETIME WARRANTY: Since 1913 we’ve promised to provide rugged, capable gear for food and drink - accessories built to last a lifetime. It’s a promise we still keep. Stanley products purchased from St"
+   ],
+   "image": "https://m.media-amazon.com/images/I/51-U5dEbEBL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0973DGD8P",
+   "category": "storage",
+   "title": "Vacuum Storage Bags with Hand Pump, Vacuum Seal Space Saver Bags,20 Combo",
+   "price": "$19.98",
+   "rating": "4.3 out of 5 stars",
+   "review_count": "81,212",
+   "features": [
+    "Expand your storage by up to 80%: Our vacuum seal storage bags effortlessly compress clothes, blankets, pillows, and travel essentials in seconds, transforming overcrowded closets and overpacked suitc",
+    "Reliable protection: Made of premium thick plastic, these vacuum sealer bags are engineered with a triple-seal turbo valve and double-zip seal to maintain a lasting compression. Locks air out to prote",
+    "20 combo variety pack includes: 4 Jumbo: 39.35” X 27.5”(100cm X 70cm); 4 Large: 33.5” X 21.65”(85cm X 55cm); 4 Medium: 27.5”X 19.5”(70cm X 50cm); 4 Small: 23.5”X 15.7” (60cm X 40cm); 4 Travel Roll Up ",
+    "Easy compression: Compatible with standard vacuum cleaners for rapid air removal. Includes a portable hand pump for convenient compression at home or while traveling.",
+    "Multi-Use for Travel & Home: These vacuum seal storage plastic packaging bags are designed to expand luggage capacity and simplify home organization. Designed for home storage, travel, flights, cruise",
+    "User instruction: for vacuum storage bag-fill, seal & vacuum: place clean, dry items inside, close the double zipper securely, vacuum out the air, then tightly close the valve cap. for travel roll-up "
+   ],
+   "image": "https://m.media-amazon.com/images/I/81JmVgvOmCL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B09W2Y51TC",
+   "category": "storage",
+   "title": "Amazon Basics 4-Shelf Steel Wire Storage Shelves for Garage, Adjustable Metal Shelving Unit, 200 lbs Per Shelf, 23.2\" W x 48\" H x 13.4\" D, Black",
+   "price": "$36.38",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "263,785",
+   "features": [
+    "4 shelf wire rack offers handy storage space and easy access to tools and supplies",
+    "Durable steel construction with a Black finish; each shelf holds up to 200 pounds, evenly distributed; 800 pound total weight capacity",
+    "Adjustable shelf height in 1-inch increments for easy customizing; 4 leveling feet for stability",
+    "Multi-purpose versatility; use in a garage, laundry room, kitchen, playroom, or other living or work space",
+    "Assembles quickly and easily; no tools needed"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71ZPJe9hoLL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0BLSCY6PR",
+   "category": "storage",
+   "title": "EUDELE Adhesive Shower Caddy, 5 Pack Rustproof Stainless Steel Bath Organizers With Large Capacity, No Drilling Shelves for Bathroom Storage & Home De",
+   "price": "$19.98",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "49,239",
+   "features": [
+    "5 Hanging Shower Organizer Set for Sufficient Bathroom Storage Space:The bathroom organizer comes with 5 pieces for different uses, including 2 shower caddies, 2 soap holders,1 toothbrush holder and 5",
+    "Durable Stainless Steel,Whole Hollow Design:Built with 100% premium material, each shower shelf is durable, rustproof, waterproof, and scratch-proof, thanks to its high-temperature baking paint proces",
+    "40-Pound Bearing Weight,Reliable and Stable:The newest upgraded transparent traceless adhesives give ultra-strong reliability with up to 40 lbs of bearing weight, which is tested by professional insti",
+    "Stronger Adhesive for Easy Installation,No Drilling:Installation only takes a few minutes, requiring no drilling holes or any tools and doing no damage to the wall. Clean the surface, stick the adhesi",
+    "Efficient Storage Solution for Kitchen/Bathroom:Perfect for Bathroom Decor. It’s a perfect choice for keeping the bathroom or kitchen items well organized and within easy reach, which is widely applie",
+    "Size: Shower Caddy A: 5.5\"D x 12.72\"W x 4.13\"H Shower Caddy B: 4.8\"D x 12.2\"W x3.9\"H Toothbrush Holder: 2.9\"D x 4.1\"W x 5.5\"H Soap Holder: 4\"D x 6\"W x 2\"H"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81S6FPdEHWL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0CJ56M8D4",
+   "category": "storage",
+   "title": "Veken Shower Caddy 6-Pack, Bathroom Organizers and Storage Shelves, Black",
+   "price": "$23.74",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "15,441",
+   "features": [
+    "Comprehensive Storage Solution: This 6-piece set includes small, medium, and large caddies with a soap dish and toothbrush holder to organize shower essentials. Keep your shampoos, soaps, razors, and ",
+    "Tool-Free Installation: Forget about drilling! The strong adhesive mounting system allows for a hassle-free installation with no tools required. Simply follow the 4-step process, and enjoy a secure fi",
+    "Built to Last: Crafted from premium stainless steel, this caddy set is sturdy and durable, able to withstand heavy use. It’s designed to hold bottles, soap, and other toiletries securely without warpi",
+    "Waterproof & Rust-Resistant: Designed for use in high-moisture areas, this caddy is made from rustproof and waterproof materials. It resists corrosion over time, keeping your shower organization solut",
+    "Perfect for Family Bathrooms: Ideal for family use, this shower caddy set offers versatile storage options. Its space-saving design helps maximize bathroom storage, organizing everyone’s essentials wh",
+    "Award-Winning Practical Gift Idea: This bathroom organizer set has been recognized with the FCA & MCA awards, making it an excellent gift choice for housewarmings, newlyweds, college students, or anyo"
+   ],
+   "image": "https://m.media-amazon.com/images/I/717q1v8CBDL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B01LR5RG08",
+   "category": "fitness",
+   "title": "Amazon Basics Neoprene Dumbbell Hand Weights for Exercise and Muscle Toning",
+   "price": "$9.45",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "13,218",
+   "features": [
+    "SHIPMENT CONTAINS: 3 pound dumbbell hand weight (set of 2) for exercise and strength training",
+    "LONG-LASTING NEOPRENE COATING: Purple neoprene texture offers long lasting durability and comfortable grip during workouts",
+    "HEXAGON SHAPED ENDS: Prevents dumbbells from rolling away and offers stay-in-place storage",
+    "NONSLIP GRIP: Promotes a comfortable, secure hold during various exercises",
+    "COLOR CODED IDENTIFICATION: Printed weight number on each end cap and color coded for quick identification; available in multiple sizes to mix and match for specific workout needs"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61UEXxKIlrL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B075565Z2N",
+   "category": "fitness",
+   "title": "CHARMKING Compression Socks for Women & Men Circulation (3 Pairs) 15-20 mmHg is Best Support for Athletic Running Cycling",
+   "price": "$8.99",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "48,995",
+   "features": [
+    "COMPRESSION SOCKS - We intend combining fashion, technology and science to bring you the triple comfort without. The material of our compression socks are upgraded with nylon percentage from 40% to 85",
+    "COMFORT - We carefully designed and manufactured our compression socks to provide premium support, comfort, and relief without compromising your mobility. Form fitting, lightweight, and breathable fab",
+    "EFFECTIVE - Our compression socks (15-20 mmHg) are highly recommended by preferred by trainers. These are designed to promote blood circulation and oxygen flow preventing fatigue and helps in muscle r",
+    "UNISEX - Two size options available to pick from,suitable for both men and women. Best Gift for women, athletes and runners - Anyone on their feet all day. If you are struggling with a gift idea to a ",
+    "SHOP WITH CONFIDENCE - Your satisfaction is our topmost priority. If you find that our socks do not meet your expectations, we are here to assist you with a solution to ensure you're content with your"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71UwYJm571L._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B07VWT4XRG",
+   "category": "fitness",
+   "title": "FITRELL 3 Pairs Compression Socks for Women and Men 20-30mmHg-Circulation Support Socks",
+   "price": "$14.99",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "39,910",
+   "features": [
+    "【Size Tips】: Choose according to your CALF size first as for 20-30 mmHg. One size smaller if need tighter compressions. S/M fit for Calf size 9-15in, mens US shoes 6-8.5, womens US shoes 7-9.5; L/XL f",
+    "【Moisture-Wicking & Breathable】: These athletic compression socks are made of high-performance fabrics with environmental auxiliaries of moisture-wicking effect, aiming to provide dry fit feeling. At ",
+    "【Friction & Shock Protection】: Our compression stockings are sewn with a seamless toe, reducing the friction between toes and shoes. To absorb the shock and prevent overuse injuries during any activit",
+    "【Circulation & Muscle Support】: 5 zones of Graduated compression socks boost venous flow, protect the Plantar Fascia, support the Achilles, improve circulation and reduce swelling, creating these comp",
+    "【For Women & Men in Multiple Occasions】: Our compression socks are designed both for women and men, they can be suitable for a wide range of people. Equipped with high performance, these compression s",
+    "【Best Service】: We FITRELL serve sincerely for all customers. We do hope you will have a risk-free and 100% satisfied shopping experience and we will try our best to achieve this goal. If you have any"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71CUmyhYe2L._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B008GRONV6",
+   "category": "pet",
+   "title": "Greenies Pill Pockets Large Size Dog Treats, Peanut Butter, 7.9 oz",
+   "price": "$9.98",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "35,476",
+   "features": [
+    "Make Health A Treat: Greenies dog pill pockets are the tasty, low calorie way to help your dog's medicine go down--without trying to hide pills in human food like messy peanut butter or cheese",
+    "Sniff Test Safe: Greenies dog treats come in an irresistible peanut butter flavor for a stress- and mess-free experience for you both",
+    "These Pill Pockets Dog Treats are easy to use: Drop the medicine capsule inside the pocket, pinch it closed, and give your best friend a tasty snack",
+    "When it comes to meds, pets are smart--but you're smarter: Greenies pet pill pockets for dogs are a vet-recommended medicating treat hack for odor masking you and your dog will love",
+    "Easy Treating: These easy-to-use pill pockets for dogs capsule size make taking medicine a positive experience for your dog"
+   ],
+   "image": "https://m.media-amazon.com/images/I/718q0OyLJnL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0B52D7BBD",
+   "category": "pet",
+   "title": "INABA Churu Cat Treats, Lickable, Squeezable Creamy Purée Cat Treat with Green Tea Extract & Taurine, 0.5 Ounces Each Tube, 20 Tubes, Chicken Variety ",
+   "price": "$21.01",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "13,419",
+   "features": [
+    "MADE WITH WHOLESOME INGREDIENTS YOU CAN TRUST: Every Inaba product is made with yummy high-quality ingredients including farm-raised chicken and/or natural wild-caught tuna",
+    "KEEP YOUR FELINE HYDRATED WITHOUT ADDING CALORIES: Each delicious, creamy Churu tube contains 91% moisture and only 6 calories (a tenth of the calories of traditional dry cat treats), which makes it a",
+    "FREE OF THE BAD STUFF: Your feline friend is important to us, which is why we've kept things like grains, preservatives, artificial colors and carrageenan out of our cat treats, but we added things li",
+    "HAVE THEM EATING OUT OF YOUR HAND: These lickable purée meat tubes for cats were designed to be fed by hand, as an interactive way to spend time with your feline, but you can use as a wet/dry cat food",
+    "ADD SOME VARIETY TO YOUR CAT'S LIFE: Available in 19 savory flavors, cats of all stages (kitten to senior) will be able to find a flavor they love"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71Mj4ao68fL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00NABTC8M",
+   "category": "pet",
+   "title": "Amazon Basics Dog Poop Leak Proof Bags with Dispenser and Leash Clip, Unscented, 13\" x 9\" Large Size, 300 Count",
+   "price": "$8.99",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "243,917",
+   "features": [
+    "Dog poop bags for quick, easy pick-ups",
+    "Neatly contains waste and minimizes odors",
+    "Leakproof design keeps hands clean and protected",
+    "Includes 300 unscented plastic bags (15 bags per roll; 20 rolls), a dispenser, and a matching leash clip",
+    "Large 13 x 9-inch bag size for generous coverage",
+    "Carabiner for clipping the dispenser onto a leash (leash not included)"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71RhBxKwOWL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B01LNB6SA0",
+   "category": "pet",
+   "title": "Temptations Classic Crunchy and Soft Cat Treats, Tasty Chicken, 30 oz",
+   "price": "$14.97",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "73,392",
+   "features": [
+    "Cats Can't Resist: Your cat can't wait to get their paws on these irresistible Temptations cat treats for indoor cats that are crunchy outside and soft inside, so shake the pack and they'll come runni",
+    "Under 2 Calories Per Treat: Feel good about rewarding your cat every day because these low calorie cat treats deliver a crunchy treat under 2 calories and can be used as a meal, or cat food toppers",
+    "100% Complete and Balanced For Adult Cats: Feel great about treating your phenomenal feline with cat supplies that are 100% nutritionally complete and balanced cat food treats for adult cat maintenanc",
+    "Convenient Stay-Fresh Tub: Resealable dry cat treats tub makes for easy treating and keeps your cat's paws off when you're not watching",
+    "The Purr-fect Pairing: Try all of our irresistible options that come in a variety of flavors cats come running for"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81R71nXnWdL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B003P9XG68",
+   "category": "pet",
+   "title": "Blue Buffalo Health Bars Pumpkin & Cinnamon Dog Biscuits, 16 oz",
+   "price": "$4.98",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "9,947",
+   "features": [
+    "OVEN-BAKED GOODNESS: Blue Buffalo Health Bars crunchy dog treats deliver oven-baked pumpkin and cinnamon flavor goodness for a satisfying crunch and warm pumpkin spice aroma dogs love",
+    "EXPERT-LED NUTRITION: Designed to help your pet thrive from the inside out, Blue Buffalo all-natural dog treats are developed by a dedicated team of veterinarians and animal nutritionists for a truste",
+    "REAL NATURAL INGREDIENTS: Made with real pumpkin, cinnamon, and wholesome whole grains for crunchy dog cookies Pet Parents feel good about serving and dogs enjoy",
+    "SUPPORTS OVERALL HEALTH: These natural dog snacks are fortified with antioxidants and vitamins to support overall health and well-being in every crunchy bite",
+    "HEALTHY SKIN & COAT: Omega 3 fatty acids from flaxseed help support healthy skin and promote a shiny coat, making these crunchy dog biscuits a smart treat choice",
+    "SUITABLE FOR ALL DOGS: These Blue Buffalo pumpkin dog treats are appropriate for dogs of all ages, sizes, and breed types as healthy dog snacks or everyday rewards"
+   ],
+   "image": "https://m.media-amazon.com/images/I/814imhI+jML._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B07NHL31CC",
+   "category": "pet",
+   "title": "Earth Rated Dog Wipes for Paws & Butt, Deodorizing, Unscented, 100ct",
+   "price": "$11.99",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "70,091",
+   "features": [
+    "PREMIUM INGREDIENTS FOR GENTLE CARE: Formulated with soothing aloe, hydrating shea butter, calming chamomile, refreshing cucumber, and deodorizing baking soda. Gentle enough for daily use on dogs and ",
+    "DURABLE WIPES FOR EVERYDAY MESSES: Thick, pre-moistened wipes ready for any cleanup. Made with USDA Certified 98% Biobased material. Designed to help resist tearing during grooming and cleaning",
+    "MINDFULLY FORMULATED: Hypoallergenic, alcohol-free, paraben-free, cruelty-free, and dermatologist-tested. Safe for both dogs and cats",
+    "EARTH RATED: Our mission is to make everyday moments for people and their pets simpler and better. We do this by designing innovative products that are thoughtfully unexpected. We are also proudly B C"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71-tH6hmzqL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B001650NNW",
+   "category": "pet",
+   "title": "Purina Pro Plan Veterinary Supplements FortiFlora Dog Probiotic Supplement",
+   "price": "$44.99",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "49,737",
+   "features": [
+    "Number 1 vet-recommended probiotic brand to support digestive health (online survey among all US vets who indicated brand as one of 1-3 brands recommended Q4 2025).",
+    "For Dogs of All Ages: Probiotic dog powder supplement for the dietary management of puppies and adult dogs with diarrhea.",
+    "Proven Probiotics: Dog digestive support supplement containing a probiotic for dogs proven to promote intestinal health and balance.",
+    "Easy-to-Feed: Easy-to-Feed powder supplement includes dog immune system supporting antioxidants.",
+    "Trusted Brand: FortiFlora digestive probiotics for dogs are developed in collaboration with Purina nutritionists, researchers and veterinarians."
+   ],
+   "image": "https://m.media-amazon.com/images/I/71Ppwe2THcL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B08P2D95G8",
+   "category": "pet",
+   "title": "Pur Luv Chicken Jerky Dog Treats,100% Real Chicken Breast, 16 Ounces",
+   "price": "$14.97",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "13,965",
+   "features": [
+    "Chicken First: Pur Luv dog chicken jerky treats are made with only whole proteins, featuring 100% Real Chicken as the very first ingredient",
+    "Satisfying Treat: The chicken dog treats help to satisfy your dog’s natural instinct to chew",
+    "Limited Ingredients: Pur Luv chicken treats for dogs feature limited ingredient decks so you know exactly what you’re feeding your dog",
+    "Healthy Snack: The Pur Luv Chicken Jerky for dogs is a high protein and low fat snack with no artificial flavors, colors, or preservatives",
+    "Pur Luv Chicken dog jerky treats satisfy your dog’s craving for real chicken and their natural desire to chew; dogs love chicken jerky treats and the flavor that comes from the real whole protein chic"
+   ],
+   "image": "https://m.media-amazon.com/images/I/819xaj3Y93L._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00CU2CMOI",
+   "category": "pet",
+   "title": "Pedigree Dentastix Large Breed Dental Dog Treats, Variety, 51 Count",
+   "price": "$16.16",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "22,390",
+   "features": [
+    "Triple Action: These dental treats for large dogs reduce tartar buildup, clean teeth, and freshen breath for complete dental care",
+    "X-Shape Design: Pedigree Dentastix large dog dental chews have a unique X-shape and chewy texture that helps scrape away plaque while chewing to help clean hard-to-reach areas around teeth",
+    "Large Breed Formula: Treat your large breed dog (40+ lbs.) to dental sticks for large dogs. 1 treat a day to brighten your furry friend's smile",
+    "Delicious Flavors: This variety pack of dog dental treats has three delicious flavors to choose from including Original, Beef, and Fresh Flavors.",
+    "No Added Sugar: Snacks for dogs made with no added sugar or fillers for quality dental care"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81jnJugwU3L._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0114BNXQ6",
+   "category": "pet",
+   "title": "Milk-Bone Flavor Snacks Mini’s Dog Treats, 36 Oz.",
+   "price": "$11.48",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "49,848",
+   "features": [
+    "CONTAINS: One 36-oz. canister of Milk-Bone Flavor Snacks Mini’s dog biscuits for dogs of all sizes",
+    "3 FLAVORS YOUR DOG WILL LOVE: Give ‘em dog biscuits with the tail-wagging tastes of beef, chicken and bacon flavors with other natural flavors",
+    "WHOLESOME DOG TREATS WITH 15% PROTEIN: Five calories per treat and contains 12 vitamins and minerals, like iron, zinc and vitamin B12",
+    "CALCIUM & PHOSPHORUS: To help support healthy teeth and bones",
+    "CRUNCHY TEXTURE: Helps freshen breath and reduce tartar build-up, perfect for sloppy doggie kisses"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81PZ1KH7+oL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B07SCL613T",
+   "category": "baby",
+   "title": "Huggies Natural Care Sensitive Baby Wipes, Unscented, Hypoallergenic, 99% Purified Water, 12 Flip-Top Packs (768 Wipes Total), Packaging May Vary",
+   "price": "$16.97",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "194,418",
+   "features": [
+    "12 flip-top packs of 64 Huggies Natural Care Sensitive Baby Wipes, Unscented (768 wipes total), packaging may vary",
+    "Dermatologist-Tested and Hypoallergenic: Our fragrance-free wipes are dermatologist-tested, hypoallergenic and gentle on sensitive skin",
+    "Natural Care Sensitive unscented wipes received the National Eczema Association Seal of Approval",
+    "pH Balanced: Natural Care Sensitive Baby Wipes are pH balanced to help maintain healthy skin",
+    "No Harsh Ingredients: These wipes are free of fragrances, parabens, phenoxyethanol and alcohol",
+    "Plant-Based Wipes*: Huggies Natural Care Sensitive Baby Wipes are plant-based* (*70%+ by weight plant-based materials)"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81KJo22+X0L._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B086LKQDJG",
+   "category": "baby",
+   "title": "The Honest Company Multi-Use Baby Wipes, Pattern Play, 720 Count",
+   "price": "$45.88",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "56,099",
+   "features": [
+    "Clean up all of life’s messes. Compostable, plant-based multi-use Wipes are made with over 99% water and only 7 transparent ingredients, making them gentle and safe for baby’s sensitive skin but great",
+    "Hypoallergenic, fragrance free, dermatologist tested, and recognized with the National Eczema seal of acceptance, which means you can trust that this product is safe and suitable for people with sensi",
+    "Diaper duty and beyond: these wipes are ultra durable and extra thick with a convenient flip-top dispenser - use on all household surfaces, for a post-workout refresh, to clean your pet's paws, and wi",
+    "Hypoallergenic; Dermatologist Tested; EWG Verified; Cruelty Free; NEA Recognized; Compostable and disintegrates in 8 weeks",
+    "Made without: Plastic Cloth/Fabric, Fragrances, Parabens, Alcohol, Chlorine Processing"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81iZCP4lGZL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0BJ13K7FR",
+   "category": "baby",
+   "title": "Pampers Sensitive Baby Wipes, Unscented, Fragrance Free, Clinically Proven, Water Based, Hypoallergenic, Multi-Use, Hand Wipes, 1008 Wipes Total (18X ",
+   "price": "$29.99",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "242,242",
+   "features": [
+    "1008 Wipes in 18 Packs of Pampers Sensitive Baby Wipes, Water Based, Hypoallergenic and Fragrance Free",
+    "HELPS KEEP SKIN HEALTHIER*: Pampers Sensitive baby wipes help keep skin healthier than WaterWipes(TM) and are clinically proven baby wipes for baby’s sensitive skin (*vs WaterWipes(TM))",
+    "SKIN-LOVING: Pampers Sensitive baby wipes help restore skin’s natural pH levels, helping to improve skin with every wipe. Skin Health Alliance Dermatologist Approved",
+    "FREE OF: Pampers Sensitive baby wipes are gentle, hypoallergenic, unscented, fragrance free, and have 0% alcohol, fragrance, parabens, and latex* (*No rubbing alcohol and no natural rubber latex)",
+    "TRUSTED BY THE ONES YOU TRUST: Pampers Sensitive baby wipes are from Pampers, the #1 choice of hospitals** and the #1 pediatrican recommended brand (**based on hospital sales data)",
+    "THICK AND SOFT: Pampers Sensitive baby wipes gently clean and care for your baby’s delicate skin"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81MJTnNiezL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B08QRKY3NJ",
+   "category": "baby",
+   "title": "Huggies Simply Clean Baby Wipes, Unscented, 11 Packs, 704 Wipes",
+   "price": "$16.97",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "80,116",
+   "features": [
+    "11 flip-top packs of 64 unscented baby wipes (704 wipes total); packaging and lid style may vary",
+    "Now Softer and Stronger: Simply Clean wipes are now extra soft and gentle",
+    "Designed for Sensitive Skin: Simply Clean Fragrance Free baby wipes are hypoallergenic, dermatologist-tested and pH balanced to help maintain healthy skin",
+    "Family Wipes: These baby wipes are great for hands, faces and bottoms",
+    "Grab & Go: Cleans messes here, there and everywhere; take these unscented diaper wipes wherever you take messes",
+    "No Harsh Ingredients: Our diaper wipes are free of fragrances, parabens and alcohol; does not contain MIT or phenoxyethanol"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81tAiN-jAVL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B008KJEYLO",
+   "category": "baby",
+   "title": "WaterWipes Sensitive+ Newborn & Baby Wipes, 3-In-1 Cleans, Cares, Protects, 99.9% Water, Unscented & Hypoallergenic, 720 Count (12 Packs)",
+   "price": "$14.36",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "88,078",
+   "features": [
+    "MADE WITH BABY IN MIND: Crafted to gently clean and help protect premature, infant and newborn skin, these Sensitive+ Newborn & Baby Wipes have just two ingredients - 99.9% purified water and a drop o",
+    "EVERYDAY USE ON SENSITIVE SKIN: When life plays dirty, WaterWipes plays it clean. Ideal for cleaning small messes and refreshing skin on-the-go, these disposable wipes make the perfect daily essential",
+    "3-IN-1 SKIN CARE BENEFITS: Made using minimal ingredients, our wipes have a neutral pH range, which helps protect the natural skin barrier",
+    "MICROBIOME FRIENDLY: WaterWipes Newborn & Baby plant-based** wipes are certified microbiome friendly, helping protect baby’s delicate skin barrier",
+    "PURE & GENTLE FORMULA: WaterWipes unique 7 stage water purification, requires minimum ingredients, with 0% fragrance and alcohol",
+    "COMMITTED TO SUSTAINABILITY: OEKO-TEX STANDARD 100 keeps you and your family safe by testing each component of our certified product against a list of over 1,000 harmful substances"
+   ],
+   "image": "https://m.media-amazon.com/images/I/81EYxqEoN0L._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B072QXWXS6",
+   "category": "baby",
+   "title": "The Honest Company Shampoo & Body Wash, Tear-Free, Fragrance-Free, 10 fl oz",
+   "price": "$10.96",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "47,108",
+   "features": [
+    "Best-selling 2-in-1 Shampoo and Body Wash leaves skin and hair soft and clean; Tear free and perfect for sensitive skin, our formula is gentle for baby, but great for the whole family",
+    "Available in CALM (Lavender), NOURISH (Sweet Almond), REFRESH (Citrus Vanilla), and SENSITIVE (Fragrance Free); Each scent was created with a blend of naturally derived botanicals and essential oils f",
+    "Made With: chamomile extract, aloe, and four naturally derived scents",
+    "Made Without: parabens, dyes, synthetic fragrances, silicones, sulfates, formaldehyde donors, and phthalates",
+    "NEA Recognized; Tear-Free; Hypoallergenic; Dermatologist-tested; Naturally Derived ingredients; Cruelty Free; Made in USA; Sensitive Skin-Approved"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61i34TRSnlL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0824XNJSW",
+   "category": "baby",
+   "title": "Goodbaby No-Touch Thermometer for Adults and Kid, Accurate Baby Thermometer",
+   "price": "$9.99",
+   "rating": "4.5 out of 5 stars",
+   "review_count": "119,001",
+   "features": [
+    "Reliable & Accurate: Goodbaby Forehead Thermometer has been clinically tested and found to be a fast and absolutely reliable gadget to use. It is ideal for forehead readings.",
+    "Fast & Easy Temperatures Readings: Taking your family’s temperature with Goodbaby Forehead Thermometer is as simple as pointing, and pressing a button. It uses infrared technology and can show reading",
+    "Advanced Technology for Excellent Performance: It uses reliable ABS housing materials. Ergonomically designed, the firm grip makes it easy for even naughty children.",
+    "Multi-mode Thermometer: Goodbaby Thermometer is designed for all ages, adults, infants, and elders. It not only supports the forehead function but is able to take room/object temperature.",
+    "Trustworthy and Precies: Goodbaby Thermometer is backed by clinical validated and recommended by the pediatrician. Please contact our friendly customer support team if you have any concerns about the ",
+    "WHAT YOU GET: 1x Forehead Thermometer, 1 x User Manual, 1 x Quick Guide, 2 x AAA Batteries. You will also get 12 months replacement from the date of purchase and 7*24h friendly customer service！"
+   ],
+   "image": "https://m.media-amazon.com/images/I/51JdQWimMaL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00ZQXT4EY",
+   "category": "baby",
+   "title": "Desitin Maximum Strength Diaper Rash Paste, 40% Zinc Oxide, 4.8 oz",
+   "price": "$5.98",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "51,766",
+   "features": [
+    "5-in-1 Baby Paste: Helps treat, heal, protect, soothe and help prevent diaper rash; Desitin Zinc Oxide paste seals out wetness and soothes chafed skin for noticeable relief on contact",
+    "Lasting care: Thick, moisture-locking zinc oxide baby rash cream stays in place for up to 12 hours, keeping skin dry and comfortable between diaper changes, even overnight. Best for stubborn, persiste",
+    "Doctor recommended brand: Desitin Diaper Rash Cream Maximum Strength Rash Paste is dermatologist- and pediatrician-tested, proven to provide gentle yet effective soothing, healing relief all day and n",
+    "Safe for delicate skin: Desitin Maximum Strength baby diaper rash Paste contains 40% zinc oxide; hypoallergenic, no added parabens and dyes, a safe baby diaper paste for daily use on delicate baby ski",
+    "Convenient size for at home or on the go: Desitin baby paste comes in a 4.8-ounce tube that fits well in diaper bags and home changing stations, so you always have one available to help treat and prev"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71NRCxbQRvL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B0081GJ038",
+   "category": "baby",
+   "title": "Love to Dream Swaddle Up, Baby Sleep Sack | 1.0 TOG, 8-13 lbs, Gray",
+   "price": "$34.95",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "30,150",
+   "features": [
+    "𝐑𝐈𝐆𝐇𝐓 𝐒𝐈𝐙𝐄 = 𝐁𝐄𝐓𝐓𝐄𝐑 𝐒𝐋𝐄𝐄𝐏: Choose the SIZE S (SMALL) Swaddle UP baby sleep sack made for 8 – 13 lbs, and up to 62 cm / 25 in. Tap the size chart to confirm weight and height, then ",
+    "𝐃𝐄𝐒𝐈𝐆𝐍𝐄𝐃 𝐓𝐎 𝐇𝐄𝐋𝐏 𝐁𝐀𝐁𝐈𝐄𝐒 𝐒𝐄𝐋𝐅-𝐒𝐎𝐎𝐓𝐇𝐄 & 𝐋𝐄𝐀𝐑𝐍 𝐓𝐎 𝐒𝐄𝐓𝐓𝐋𝐄 𝐓𝐇𝐄𝐌𝐒𝐄𝐋𝐕𝐄𝐒: The Unique, award winning ARMS UP design allows your baby to sleep in their natur",
+    "𝐒𝐖𝐀𝐃𝐃𝐋𝐄 𝐈𝐍 𝐒𝐄𝐂𝐎𝐍𝐃𝐒: Swaddle perfectly in seconds! SWADDLE UP has one two-way zipper, no scratchy velcro, no fussy studs, just a super easy, convenient and simple to use swaddle that's ",
+    "𝐂𝐎𝐌𝐅𝐎𝐑𝐓𝐀𝐁𝐋𝐄 𝐒𝐋𝐄𝐄𝐏: Designed with your baby’s comfort and well-being in mind. The Swaddle Up stays in place through the night with soft, stretchy fabric that provides a snug fit, removi",
+    "𝐋𝐈𝐆𝐇𝐓𝐖𝐄𝐈𝐆𝐇𝐓 𝐒𝐋𝐄𝐄𝐏 𝐒𝐀𝐂𝐊: Our newborn swaddle is made with cotton fabric and is ideal for the baby's delicate skin. This 1.0 TOG sleep sack is perfect for moderate room temperatures "
+   ],
+   "image": "https://m.media-amazon.com/images/I/613XMS1jahL._AC_SL1228_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B08H3JPH74",
+   "category": "health",
+   "title": "Maybelline Lash Sensational Sky High Washable Mascara Makeup, Volumizing, Lengthening, Defining, Curling, Multiplying, Buildable Formula, Blackest Bla",
+   "price": "$10.82",
+   "rating": "4.5 out of 5 stars",
+   "review_count": "189,725",
+   "features": [
+    "Lengthening Mascara: This volumizing washable mascara formula is infused with bamboo extract and fibers for long, full and lightweight lashes that don't flake or smudge",
+    "Lash Extension Brush: Features our exclusive Flex Tower mascara brush that bends to volumize and extend every single lash from root to tip; Ophthalmologist and allergy tested, suitable for sensitive e",
+    "It's All in the Eyes: Subtle lines, smokey vibes, custom brow looks, classic tones or a shot of color; Our eyeshadow, eyeliner, brows and mascara collections are designed to transform your look",
+    "Create any look with Maybelline; foundation, BB creams, concealers, and setting powders for the perfect canvas, eye shadows, mascara, brow pencils, and eyeliners for any eye look and lip products, fro"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71MQo8pHmBL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B07GB3NVN1",
+   "category": "health",
+   "title": "Native Deodorant Contains Naturally Derived Ingredients, 72 Hour Odor Control, Deodorant for Women and Men, Aluminum Free, Coconut & Vanilla 2.65oz",
+   "price": "$13.97",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "119,200",
+   "features": [
+    "72-HOUR ODOR CONTROL: Feel fresh and confident for up to three days. Our deodorant provides effective, long-lasting odor protection, giving you the freedom to tackle your day without a second thought.",
+    "CLEAN & EFFECTIVE INGREDIENTS: Made with naturally-derived ingredients, like shea butter, that you can feel good about. This formula is aluminum free, paraben free, phthalate free, and talc free, usin",
+    "SMOOTH GLIDE: Designed for a comfortable experience, this solid deodorant stick glides on easily without feeling sticky or greasy. The formula applies clear and leaves no white marks or yellow stains ",
+    "PROVEN ODOR-FIGHTING FORMULA: We tested scores of ingredients before finding a recipe that feels light and fresh under your arms while providing you with all day odor protection."
+   ],
+   "image": "https://m.media-amazon.com/images/I/71+YrR0ql9L._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00TTD9BRC",
+   "category": "skincare",
+   "title": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz",
+   "price": "$16.02",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "148,566",
+   "features": [
+    "[ HYALURONIC ACID MOISTURIZER ] With hyaluronic acid, ceramides and MVE technology for 24 hour hydration. Rich, velvety texture that leaves skin feeling smooth, it is absorbed quickly for softened ski",
+    "[ MOISTURIZER FOR DRY SKIN ] A deficiency of ceramides in skin can often be associated with dry skin, which can feel itchy and look flaky. CeraVe Moisturizing Cream is formulated with three essential ",
+    "[ GENTLE DAILY MOISTURIZER ] For face and body or can be used as a hand cream for dry skin relief. Holds National Eczema Association (NEA) Seal of Acceptance. Fragrance free, paraben free, allergy-tes",
+    "[ 3 ESSENTIAL CERAMIDES ] Ceramides are found naturally in the skin and make up 50% of the lipids in the skin barrier. All CeraVe products are formulated with three essential ceramides (1, 3, 6-II) to",
+    "[ DEVELOPED WITH DERMATOLOGISTS ] CeraVe Skincare is developed with dermatologists and has products suitable for dry skin, sensitive skin, oily skin, acne-prone, and more."
+   ],
+   "image": "https://m.media-amazon.com/images/I/61EidjXUBrL._SL1000_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00PBX3L7K",
+   "category": "skincare",
+   "title": "COSRX Snail Mucin 96% Repairing Serum for Sooothing & Hydrating 3.38 oz.",
+   "price": "$21.00",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "107,700",
+   "features": [
+    "The Real Snail Essence: Formulated with 96.3% Snail Secretion Filtrate, this essence repairs and rejuvenates the skin from dryness and aging. It improves skin vitality by reducing dullness and soothin",
+    "Simple Yet Effective Light-weight Essence: A lightweight essence which fastly absorbs into the skin and gives you a natural and healthy glow. Guarantees long-lasting hydration without heavy feeling on",
+    "Key Ingredient: Snail Secretion Filtrate contains \"Mucin\"- an EFFECTIVE ingredient for enhanced moisturization. It instantly soothes damaged skin and delivers moisture deep into your skin. Perfect for",
+    "NO Snails are Harmed: Snail Mucin is obtained in a safe and environmentally friendly way in a favorite environment of snails and then processed as a cosmetic material. 100% Natural, Hypoallergenic, De",
+    "Patch Test Recommended: Based on a Skin Irritation Test and a Human Repeat Insult Patch Test (HRIPT), the Snail 96 Mucin Essence is safe to use on sensitive skin. Perform a Patch Test on the body befo"
+   ],
+   "image": "https://m.media-amazon.com/images/I/416kUGx2rQL._SL1024_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00949CTQQ",
+   "category": "skincare",
+   "title": "Paula's Choice SKIN PERFECTING 2% BHA Liquid Leave-On Exfoliant",
+   "price": "$37.00",
+   "rating": "4.5 out of 5 stars",
+   "review_count": "116,781",
+   "features": [
+    "GENTLE NON-ABRASIVE LEAVE-ON EXFOLIANT: With 2% BHA (Beta hydroxy acid), to unclog & diminish enlarged pores, exfoliate dead skin cells, smooth wrinkles, and brighten and even out skin tone. Combats r",
+    "Dramatically improves skin's texture for radiant youthful even-toned skin. Beta hydroxy acid (BHA, also known as salicylic acid) mimics the natural exfoliation process of younger skin by helping it sh",
+    "HYDRATE, BRIGHTEN & SMOOTH FINE LINES: Our unique, non-abrasive, leave-on exfoliant is gentle enough for daily use on all skin types. Exfoliates dead skin cells while clearing pores for a more even to",
+    "Paula's Choice facial exfoliants are gentler on delicate skin of the face & neck than an abrasive face scrub, which can cause micro-tears. A BHA leave-on exfoliator delivers hydration & can exfoliate ",
+    "Paula's Choice Skincare makes products that work. No fragrance, no parabens, no fluff. Just effective, science-backed formulas that target any concern from wrinkles to breakouts."
+   ],
+   "image": "https://m.media-amazon.com/images/I/61RHq4MT34L._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00NR1YQHM",
+   "category": "skincare",
+   "title": "Neutrogena Hydro Boost Water Gel, 24 Hr Hydration, 1.7 oz",
+   "price": "$22.29",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "88,269",
+   "features": [
+    "Neutrogena Hydro Boost Hyaluronic Acid Water Gel with Signature Fragrance for refreshed, dewy skin",
+    "Ideal for normal, oily and combination skin types, and suitable for acne-prone skin",
+    "Ultra-lightweight gel absorbs quickly, and instantly refreshes and cools skin",
+    "Formulated with signature fragrance and hyaluronic acid, a dermatologist recommended hydrator",
+    "Clinically-proven to deliver 24-hours of hydration and strengthens skin barrier after just 1 use"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61fhuufzENL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00QY1XZ4W",
+   "category": "skincare",
+   "title": "Vanicream Gentle Facial Cleaner, pH-Balanced Face Wash, 8 Fl Oz",
+   "price": "$9.97",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "35,511",
+   "features": [
+    "Created for sensitive skin : We select ingredients that are effective, suitable for our customers, and are tested and monitored for quality",
+    "Mild & gentle formula: Ideal for dry skin associated with atopic dermatitis (eczema), psoriasis, and winter itch; Free of oil, soap, botanical extracts, essential oils and harsh cleansing agents",
+    "Free of common irritants: Our products are free of dyes, fragrance, masking fragrance, lanolin, parabens, formaldehyde and other preservatives; Enjoy soft, clear skin while removing makeup and excess ",
+    "Our gentle body wash was awarded the Seal of Acceptance from the National Eczema Association (NEA)",
+    "Dermatologist tested: Our products are formulated with ingredients that dermatologists consider desirable and not irritating or sensitizing to the skin; Suitable for children"
+   ],
+   "image": "https://m.media-amazon.com/images/I/611NyPcyZtL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B01N1LL62W",
+   "category": "skincare",
+   "title": "CeraVe Foaming Facial Cleanser, Face Wash for Oily Skin, 16fl oz",
+   "price": "$14.24",
+   "rating": "4.8 out of 5 stars",
+   "review_count": "105,320",
+   "features": [
+    "[ FOAMING FACE WASH ] Dispenses as a clear gel cleanser and transforms into a foam as you lather. Cleanses without leaving skin feeling tight, dry, or stripped",
+    "[NON- DRYING FACE CLEANSER] Fragrance-free, non-comedogenic, non-drying, and non-irritating. Gently refreshes and effectively removes excess oil, dirt, and makeup",
+    "[ MULTI-USE SKIN CARE ] Skin Cleanser for face and/or body and can be used as a hand wash. Suitable for daily cleansing morning (AM) and night (PM) for normal to oily skin",
+    "[ 3 ESSENTIAL CERAMIDES ] Ceramides are found naturally in the skin and make up 50% of the lipids in the skin barrier. All CeraVe products, formulated with three essential ceramides (1, 3, 6-II)to hel",
+    "[ DEVELOPED WITH DERMATOLOGISTS & #1 DERMATOLOGIST RECOMMENDED SKINCARE BRAND ] CeraVe Skincare is developed with dermatologists and has products suitable for dry skin, sensitive skin, oily skin, acne",
+    "[ FACE & BODY WASH ] Cleanser for face, can also be used on the body and/or hands. Suitable for normal to oily skin."
+   ],
+   "image": "https://m.media-amazon.com/images/I/516r6ghtxaL._SL1000_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B01LSUQSB0",
+   "category": "beauty-tools",
+   "title": "REVLON One-Step Volumizer Hair Dryer and Styler, 2.8 in Barrel, Black",
+   "price": "$49.94",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "352,691",
+   "features": [
+    "Full-bodied blowouts: The 2.8 in oval barrel smooths hair while rounded edges help create lift, volume, and curled ends",
+    "Best for longer lengths: Choose this larger-barrel dryer brush for mid-length to long hair and a classic, high-volume blowout",
+    "Dry and style in 1 step: Use on damp hair to dry, smooth, and volumize without juggling a separate dryer and round brush",
+    "Control your finish: Select Cool, Low, or High to tailor airflow and heat to your styling needs",
+    "Smooth with tension: Nylon pins and tufted bristles help grip and guide hair for controlled styling from roots to ends"
+   ],
+   "image": "https://m.media-amazon.com/images/I/61SrWfdHa1L._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B07FDJMC9Q",
+   "category": "kitchen",
+   "title": "Ninja AF101 Air Fryer, 4 Qt Capacity, 4-in-1 Crisp, Roast, Reheat, Dehydrate, Dishwasher Safe Parts, 105°F-400°F, 1550 Watt, Grey",
+   "price": "$89.99",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "59,460",
+   "features": [
+    "4-IN-1 VERSATILITY: Includes 4 versatile cooking programs: Air Fry, Roast, Reheat, and Dehydrate.",
+    "WIDE TEMPERATURE RANGE: 105°F-400°F allows you to gently remove moisture from foods or quickly cook and crisp foods with convection heat.",
+    "AIR FRY FAVORITES: Now enjoy guilt-free food. Air fry with up to 75% less fat than traditional frying methods. Tested against hand-cut, deep-fried French fries.",
+    "FAMILY-SIZED CAPACITY: 4-quart ceramic-coated nonstick basket and crisper plate fit 2 lbs of French fries.",
+    "DEHYDRATE: Create flat, chip-like dehydrated foods for fun, homemade snacks. The combination of low fan speed and low temperature enables thorough dehydration.",
+    "EASY-TO-CLEAN: Dishwasher safe parts including the basket, and crisper plate. Wipe to clean machine exterior."
+   ],
+   "image": "https://m.media-amazon.com/images/I/71+8uTMDRFL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00FLYWNYQ",
+   "category": "kitchen",
+   "title": "Instant Pot Duo 6 Qt 7-in-1 Electric Pressure Cooker, Stainless Steel",
+   "price": "$109.99",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "184,498",
+   "features": [
+    "7 Cooking Functions: Pressure cook, slow cook, sauté, steam, make rice, yogurt, or simply keep your meal warm—all in one appliance",
+    "Customizable Smart Programs: Tackle every recipe with 13 one-touch options, from hearty soups to decadent cakes",
+    "Safe & Easy Steam Release: The Easy-Release steam switch ensures fast, safe, and simple steam release every time",
+    "Good Food Done Faster: Cook up to 70% faster compared to slow cooking methods",
+    "Pro-Grade Cooking Pot: Crafted from stainless steel (18/8) with a tri-ply bottom—perfect for searing and sautéing like a pro",
+    "Family-Sized Capacity: The 6-quart capacity is perfect for up to 6 servings—ideal for families, meal prep, and batch cooking"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71Z401LjFFL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B008H4SLV6",
+   "category": "kitchen",
+   "title": "Vitamix 5200 Professional-Grade Blender, 64 oz. Container, Black",
+   "price": "$479.99",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "8,323",
+   "features": [
+    "Included: Vitamix 5200 blender motor base, 64-ounce classic container, and tamper; this kitchen blender container allows for small- to large-capacity blends",
+    "2 HP Motor: Equipped with a high-performance motor, this countertop blender lets you say goodbye to chunky smoothies and hello to effortless blends",
+    "Stainless-Steel Blades: Laser-cut, stainless-steel blades can power through fibrous produce and frozen fruit, crush ice and nuts, and much more, offering consistent blends for years",
+    "64-Ounce Classic Container: The BPA-free blending container is designed to create the iconic Vitamix Vortex; it's a professional-grade blender for smoothies, juices, purées, sauces, soups, and more, m",
+    "Variable Speeds: Achieve precise textures with 10 variable speed settings plus a High-Speed setting",
+    "Self-Cleaning: Simply add warm water, a drop of dish soap to the container, and the blender cleans itself in 30-60 seconds, with no disassembly needed—it saves time and is great for families and those"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71LFQWt5nEL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00G2XGC88",
+   "category": "kitchen-tools",
+   "title": "Lodge Pre-Seasoned Cast Iron Skillet with Silicone Handle Holder, 12 Inches",
+   "price": "$17.50",
+   "rating": "4.7 out of 5 stars",
+   "review_count": "21,440",
+   "features": [
+    "Versatile Cooking Skillet: The Lodge Cast Iron Skillet is a multipurpose, everyday cooking pan that excels at searing, sautéing, baking, frying, and campfire meals",
+    "Pre-Seasoned & PFAS-Free: This pre-seasoned skillet is made with 100% natural vegetable oil for a naturally nonstick finish and is a non-toxic cookware option, completely PFAS-free",
+    "Superior Heat Distribution: The heavy-duty cast iron frying pan cooks evenly, making it ideal for precision recipes and consistent results",
+    "Safe & Comfortable Handling: The skillet includes a silicone heat-resistant handle holder for transport after cooking, plus a teardrop handle for easy lifting and control",
+    "About Lodge Cast Iron: Made in the USA, Lodge cookware is versatile and as easy to clean as it is to cook with; taste a difference in your cooking with cast iron"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71uh7OjLpFL._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B003UKM9CO",
+   "category": "health",
+   "title": "Oral-B Pro 1000 Rechargeable Electric Toothbrush, White",
+   "price": "$49.94",
+   "rating": "4.4 out of 5 stars",
+   "review_count": "62,930",
+   "features": [
+    "REMOVE UP TO 100% MORE PLAQUE* along the gumline whilst PROTECTING GUMS with our dentist-inspired round brush head technology *vs. a manual toothbrush",
+    "PROTECT YOUR GUMS with sensi cleaning mode and GUM PRESSURE CONTROL that automatically stops brush pulsations when brushing too hard",
+    "MAXIMIZE CLEANING performance with 3 EASY-TO-USE CLEANING MODES + handle-integrated quadrant timer that alerts you every 30sec to change brushing zone",
+    "PERSONALIZE & LEVEL-UP YOUR CLEAN with Oral-B BRUSH HEADS AVAILABLE* for YOUR individual needs: e.g., deep clean, gentle clean, whitening *for purchase",
+    "Oral-B ROUND brush heads REACH WHERE RECTANGULAR manual brushes DON'T. Experience a better clean from the #1 brand most used by dentists worldwide"
+   ],
+   "image": "https://m.media-amazon.com/images/I/710zTFQSheL._SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  },
+  {
+   "asin": "B00XM2MRGI",
+   "category": "fitness",
+   "title": "Amazon Basics High-Density Foam Roller for Exercise, Stretching and Muscle Recovery, 36 Inches, Black",
+   "price": "$24.14",
+   "rating": "4.6 out of 5 stars",
+   "review_count": "31,721",
+   "features": [
+    "High-density foam roller in Black",
+    "Ideal for balance, strengthening, and flexibility exercises",
+    "Firm, durable polypropylene maintains shape; molded edges for added comfort",
+    "Lightweight and easy to carry to class and to reposition during workouts",
+    "Wipes clean easily",
+    "Product Dimensions: 36 x 6 x 6 inches (LxWxH)"
+   ],
+   "image": "https://m.media-amazon.com/images/I/71xDzRJuq-L._AC_SL1500_.jpg",
+   "verified": true,
+   "verified_on": "2026-09-27"
+  }
+ ]
+}

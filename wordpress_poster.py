@@ -143,7 +143,7 @@ def post_to_wordpress(post_data: dict, lang: str = "en"):
     if asin and is_duplicate_asin(asin):
         return None
 
-    category_name = "Review - " + product.get("category", "general").title()
+    category_name = "Review - " + product.get("category_label", product.get("category", "general")).title()
     category_id = get_or_create_category(category_name)
 
     # 태그에 ASIN 추가 (중복 체크용)

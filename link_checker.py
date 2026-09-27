@@ -68,6 +68,6 @@ def best_link(product: dict) -> str:
     asin = product.get("asin") or extract_asin(product.get("link", ""))
     status = product.get("_link_status") or check_asin(asin)
     product["_link_status"] = status
-    if status == ALIVE and asin:
+    if asin and (status == ALIVE or (product.get("verified") and status != DEAD)):
         return dp_link(asin)
     return search_link(product.get("title", ""))
