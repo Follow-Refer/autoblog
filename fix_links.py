@@ -41,9 +41,15 @@ def all_posts():
 
 
 def main():
-    cache, fixed_posts, fixed_links, checked = {}, 0, 0, 0
-    for post in all_posts():
-        content = post["content"]["raw"]
+    cache, fixed_posts, fixed_links, checked, errors = {}, 0, 0, 0, 0
+    try:
+        posts = list(all_posts())
+    except Exception as e:
+        print(f"::error::글 목록 불러오기 실패: {e}")
+        raise
+    for post in posts:
+      try:
+        content = (post.get("content") or {}).get("raw") or ""
         asins = set(LINK_RE.findall(content))
         if not asins:
             continue
@@ -62,8 +68,11 @@ def main():
                               json={"content": new}, headers=AUTH, timeout=60)
             ok = r.status_code == 200
             fixed_posts += ok
-            print(f"{'OK ' if ok else 'ERR'} #{post['id']} {post['title']['raw'][:60]}")
-    print(f"\nChecked {checked} products, replaced {fixed_links} links in {fixed_posts} posts.")
+            print(f"{'OK ' if ok else 'ERR ' + str(r.status_code)} #{post['id']} {post['title']['raw'][:60]}")
+      except Exception as e:
+        errors += 1
+        print(f"::warning::post {post.get('id')}: {e}")
+    print(f"::notice::{WP_URL} — 글 {len(posts)}개, 상품 {checked}개 검사, 링크 {fixed_links}개 교체({fixed_posts}개 글), 오류 {errors}")
 
 
 if __name__ == "__main__":
