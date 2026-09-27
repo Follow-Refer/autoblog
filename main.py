@@ -3,12 +3,13 @@ import random
 import time
 from scraper import get_bestseller_products
 from review_scraper import get_amazon_reviews
-from content_generator import generate_post
-from wordpress_poster import post_to_wordpress
+from content_generator import generate_post, generate_guide
+from link_checker import check_asin, DEAD
+from wordpress_poster import post_to_wordpress, is_duplicate_asin
 
 # ============================================================
 # 검증된 아마존 베스트셀러 목록 (스킨케어/뷰티/생활용품 위주)
-# 실생활 경험 중심으로 글이 작성됩니다
+# 구매자 리뷰·스펙 조사 기반으로 글이 작성됩니다 (직접 사용 후기로 지어내지 않음)
 # ============================================================
 
 STEADY_SELLERS = [
@@ -704,6 +705,47 @@ CATEGORIES = [
     "kitchen", "beauty", "fitness", "home", "baby", "pet-supplies",
 ]
 
+def pick_single(lang):
+    """죽은 링크·이미 올린 상품은 건너뛰고 한 개 고르기."""
+    candidates = STEADY_SELLERS[:]
+    random.shuffle(candidates)
+    if random.random() < 0.2:
+        scraped = get_bestseller_products(random.choice(["beauty", "kitchen", "home"]), count=1)
+        candidates = scraped + candidates
+    for p in candidates[:10]:
+        asin = p.get("asin", "")
+        if asin and is_duplicate_asin(asin):
+            continue
+        status = check_asin(asin)
+        p["_link_status"] = status
+        print(f"  {p['title'][:45]} → link {status}")
+        if status == DEAD:
+            continue
+        return p
+    return None
+
+
+def pick_guide():
+    """같은 카테고리 3개로 비교 추천글."""
+    by_cat = {}
+    for p in STEADY_SELLERS:
+        by_cat.setdefault(p["category"], []).append(p)
+    cats = [c for c, ps in by_cat.items() if len(ps) >= 3]
+    cat = random.choice(cats)
+    pool = by_cat[cat][:]
+    random.shuffle(pool)
+    chosen = []
+    for p in pool:
+        status = check_asin(p.get("asin", ""))
+        p["_link_status"] = status
+        print(f"  {p['title'][:45]} → link {status}")
+        if status != DEAD:
+            chosen.append(p)
+        if len(chosen) == 3:
+            break
+    return cat, chosen
+
+
 def main():
     lang = os.environ.get("BLOG_LANG", "en")
     print(f"=== AutoBlog Start (lang={lang}) ===")
@@ -712,46 +754,28 @@ def main():
     print(f"Waiting {wait//60} minutes...")
     time.sleep(wait)
 
-    roll = random.random()
+    post = None
+    if random.random() < 0.3:
+        cat, products = pick_guide()
+        if len(products) >= 2:
+            print(f"Today: {cat} buying guide ({len(products)} products)")
+            post = generate_guide(products, cat, lang=lang)
 
-    if roll < 0.60:
-        # 60% — STEADY_SELLERS (검증된 인기 제품)
-        product = random.choice(STEADY_SELLERS)
-        products = [product]
-        print(f"Today: Curated Pick — {product['title'][:40]}")
-    elif roll < 0.80:
-        # 20% — 뷰티 베스트셀러 스크래핑
-        products = get_bestseller_products("beauty", count=1)
-        print("Today: Beauty Bestseller")
-    else:
-        # 20% — 홈/주방 베스트셀러 스크래핑
-        category = random.choice(["kitchen", "home", "fitness"])
-        products = get_bestseller_products(category, count=1)
-        print(f"Today: {category} Bestseller")
+    if post is None:
+        product = pick_single(lang)
+        if not product:
+            print("No usable product found.")
+            return
+        print(f"Today: review — {product['title'][:50]}")
+        if not product.get("reviews"):
+            product["reviews"] = get_amazon_reviews(f"https://www.amazon.com/dp/{product.get('asin','')}")
+        post = generate_post(product, lang=lang)
 
-    if not products:
-        print("No products found.")
-        return
-
-    product = products[0]
-    print(f"\nProcessing: {product['title'][:50]}...")
-
-    # 리뷰가 없는 제품만 스크래핑
-    if not product.get("reviews"):
-        print("  Collecting reviews...")
-        reviews = get_amazon_reviews(product["link"])
-        product["reviews"] = reviews
-        if reviews["pros"]:
-            print(f"  Reviews: {len(reviews['pros'])} pros, {len(reviews['cons'])} cons")
-        else:
-            print("  No reviews scraped — using product features")
-
-    post = generate_post(product, lang=lang)
     result = post_to_wordpress(post, lang=lang)
     if result:
         print(f"  Published: {result.get('link', 'ok')}")
-
     print(f"\n=== AutoBlog Done (lang={lang}) ===")
+
 
 if __name__ == "__main__":
     main()

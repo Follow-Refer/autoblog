@@ -1,33 +1,28 @@
-name: AutoBlog Daily Publisher
+name: Fix Amazon Links
 
 on:
-  schedule:
-    - cron: '17 14 * * *'   # 매일 1회 — 한국시간 밤 11시 17분 (미국 동부 아침)
+  push:
+    branches: [main]
+    paths: [fix_links.py, link_checker.py]
   workflow_dispatch:
 
 jobs:
-  publish:
+  fix:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - lang: en
-            suffix: ''
-          - lang: es
-            suffix: '_ES'
+        suffix: ['', '_ES', '_IN', '_KR']
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
       - run: pip install -r requirements.txt
-      - name: Publish (${{ matrix.lang }})
+      - name: Fix links
         env:
-          BLOG_LANG: ${{ matrix.lang }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           WP_URL:          ${{ secrets[format('WP_URL{0}', matrix.suffix)] }}
           WP_USERNAME:     ${{ secrets[format('WP_USERNAME{0}', matrix.suffix)] }}
           WP_APP_PASSWORD: ${{ secrets[format('WP_APP_PASSWORD{0}', matrix.suffix)] }}
-        run: python main.py
+        run: python fix_links.py
