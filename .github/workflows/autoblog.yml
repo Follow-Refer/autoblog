@@ -2,11 +2,10 @@ name: AutoBlog Daily Publisher
 
 on:
   schedule:
-    # 한국 시간 기준 (UTC+9)
     - cron: '0 0 * * *'   # 오전 9시 KST
     - cron: '0 4 * * *'   # 오후 1시 KST
     - cron: '0 11 * * *'  # 오후 8시 KST
-  workflow_dispatch:       # 수동 실행 버튼
+  workflow_dispatch:
 
 jobs:
   publish-en:
@@ -41,38 +40,4 @@ jobs:
           WP_URL:            ${{ secrets.WP_URL_ES }}
           WP_USERNAME:       ${{ secrets.WP_USERNAME_ES }}
           WP_APP_PASSWORD:   ${{ secrets.WP_APP_PASSWORD_ES }}
-        run: python main.py
-
-  publish-in:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: pip install -r requirements.txt
-      - name: Run AutoBlog IN
-        env:
-          BLOG_LANG: in
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          WP_URL:            ${{ secrets.WP_URL_IN }}
-          WP_USERNAME:       ${{ secrets.WP_USERNAME_IN }}
-          WP_APP_PASSWORD:   ${{ secrets.WP_APP_PASSWORD_IN }}
-        run: python main.py
-
-  publish-kr:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: pip install -r requirements.txt
-      - name: Run AutoBlog KR
-        env:
-          BLOG_LANG: kr
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          WP_URL:            ${{ secrets.WP_URL_KR }}
-          WP_USERNAME:       ${{ secrets.WP_USERNAME_KR }}
-          WP_APP_PASSWORD:   ${{ secrets.WP_APP_PASSWORD_KR }}
         run: python main.py
