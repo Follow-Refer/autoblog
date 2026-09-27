@@ -13,7 +13,8 @@ PATH = os.path.join(ROOT, "products.json")
 DROP = re.compile(r"paper towel|trash bag|cotton (swab|round|ball)|q-tips|straws|parchment|liners|hair ties|razor|blades|"
                   r"hoodie|sweatshirt|sweatpant|jogger|leggings|pants|pee pads|poop bags|diapers|training pants|cat food|dog food|"
                   r"litter|wrap,|nipple|mustache|hair dye|hair color|gray hair|lash adhesive|refill|replacement|tablets for|"
-                  r"toilet bowl|timer|can opener|shears|scissors|hangers|hooks|shoe rack|sponge holder|kitchen scale", re.I)
+                  r"toilet bowl|timer|can opener|shears|scissors|hangers|hooks|shoe rack|sponge holder|kitchen scale|"
+                  r"sealer bags|burner|moving bags|lunch b|ice cube|drying mat|drops for infants|storage bags|storage cubes|disinfecting|cleaner spray", re.I)
 NAMES = {"skincare": "skincare", "haircare": "hair care", "beauty-tools": "beauty tools", "kitchen": "kitchen appliances",
          "kitchen-tools": "kitchen gadgets", "storage": "home organization", "fitness": "fitness gear",
          "pet": "pet supplies", "baby": "baby essentials", "health": "personal care"}
