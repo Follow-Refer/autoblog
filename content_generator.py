@@ -227,7 +227,7 @@ Title: search-intent style like "Best ... in 2026" / "Top 3 ... for ...", under 
     data = _call(prompt, max_tokens=6000)
     data["content"] = CSS + build_image_html(products[0]) + data["content"]
     key = "-".join(sorted(p.get("asin", "") for p in products))
-    data["product"] = {"category_label": category, "asin": "guide" + hashlib.md5(key.encode()).hexdigest()[:8], "category": category,
+    data["product"] = {"image": products[0].get("image", ""), "rating": products[0].get("rating", ""), "review_count": products[0].get("review_count", ""), "category_label": category, "asin": "guide" + hashlib.md5(key.encode()).hexdigest()[:8], "category": category,
                        "title": products[0]["title"]}
     data["lang"] = lang
     return data

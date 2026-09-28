@@ -4,6 +4,8 @@ import base64
 import time
 import re
 
+from pin_image import upload_featured
+
 WP_URL      = os.environ["WP_URL"]
 WP_USER     = os.environ["WP_USERNAME"]
 WP_PASSWORD = os.environ["WP_APP_PASSWORD"]
@@ -164,6 +166,10 @@ def post_to_wordpress(post_data: dict, lang: str = "en"):
         "tags":       tag_ids,
         "slug":       slug or "product-review",
     }
+
+    media_id = upload_featured(WP_URL, get_auth_header(), post_data, lang)
+    if media_id:
+        payload["featured_media"] = media_id
 
     for attempt in range(3):
         try:
