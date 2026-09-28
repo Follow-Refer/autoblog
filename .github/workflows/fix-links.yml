@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        suffix: ['', '_ES', '_IN', '_KR']
+        suffix: ['', '_ES']
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
