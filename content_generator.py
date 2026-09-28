@@ -4,6 +4,7 @@ import random
 import json
 import re
 import hashlib
+import datetime
 from image_fetcher import build_image_html
 from link_checker import best_link
 
@@ -154,6 +155,8 @@ HOOK_RULES = """HOOK RULES (this is what makes people click the button):
 - Title formulas that work: "<Product> Review: Worth It for <use case>?", "<Product>: <number> Things Buyers Love (and 2 Complaints)", "Is <Product> Worth the Hype? What <N> Reviews Say".
 """
 
+YEAR = datetime.date.today().year
+
 JSON_TAIL = ('Respond ONLY with valid JSON, no markdown:\n'
              '{"title": "...", "content": "complete HTML", "excerpt": "under 155 chars", '
              '"tags": ["t1","t2","t3","t4","t5"]}')
@@ -222,7 +225,7 @@ For each product: <div class="fr-section"><h2>N. Product name — best for X</h2
 <p class="fr-disclaimer">{cfg["disclaimer"]}</p>
 </div>
 
-Title: search-intent style like "Best ... in 2026" / "Top 3 ... for ...", under 65 chars.
+Title: search-intent style like "Best ... in {YEAR}" / "Top 3 ... for ...", under 65 chars. The current year is {YEAR}; never write any other year.
 {JSON_TAIL}"""
     data = _call(prompt, max_tokens=6000)
     data["content"] = CSS + build_image_html(products[0]) + data["content"]
